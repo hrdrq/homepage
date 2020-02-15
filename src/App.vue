@@ -18,8 +18,12 @@ export default {
 
 <style lang="scss">
 body {
-  color: white;
-  background: black;
+  /* color: white; */
+  /* background: black; */
+  color: $color-front;
+  margin: 0;
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  line-height: 1.9;
   a {
     color: inherit;
     text-decoration: inherit;

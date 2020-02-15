@@ -1,6 +1,7 @@
 $lg: 961px;
 $md: 760px;
 $sm: 1px;
+$color-front: #333;
 
 @mixin lg {
   @media only screen and (min-width: ($lg)) {

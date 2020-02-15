@@ -10,14 +10,5 @@
 <style scoped lang="scss">
 #main {
   background: grey;
-  @include sm {
-    color: yellow;
-  };
-  @include md {
-    color: green;
-  };
-  @include lg {
-    color: red;
-  };
 }
 </style>
