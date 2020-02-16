@@ -5,7 +5,7 @@
       <component :is="icon"></component>
     </div>
     <div v-if="image" class="image"></div>
-    <div v-if="text" class="text"></div>
+    <div v-if="text" class="text">{{ text }}</div>
     <div v-if="list" class="list">
       <ul>
         <li v-for="(value, key) in list" :key="key">{{ value }}</li>
@@ -26,8 +26,8 @@ export default {
   @include md {
     box-sizing: border-box;
     display: inline-block;
-    width: 280px;
-    margin-right: 40px;
+    width: 30%;
+    margin-right: 5%;
     margin-bottom: 60px;
     vertical-align: top;
     &.last {

@@ -1,5 +1,6 @@
 <template>
   <header>
+    <LanguageSelector id="language_selector" />
     <div id="logo"><router-link to="/">Munehiro (Tsung-Po)</router-link></div>
     <nav>
       <ul>
@@ -24,12 +25,22 @@
 import IconLinkedin from '../svgs/linkedin.vue'
 import IconGithub from '../svgs/github.vue'
 import IconHackerrank from '../svgs/hackerrank.vue'
+import LanguageSelector from '../components/LanguageSelector.vue'
 export default {
   name: 'Header',
   components: {
     IconLinkedin,
     IconGithub,
     IconHackerrank,
+    LanguageSelector
+  },
+  data() {
+    return {
+      arrayOfObjects: [],
+      object: {
+        name: 'Object Name',
+      }
+    }
   }
 }
 </script>
@@ -117,6 +128,12 @@ header {
           height: 22px;
         }
       }
+    }
+  }
+  #language_selector {
+    @include md {
+      position: absolute;
+      right: 0px;
     }
   }
 }

@@ -11,9 +11,15 @@
     </Block>
 
     <Block title="Experience">
-      <Cell title="Surveillance" :list="['engineer']" :icon="icon_surveillance" />
+      <Cell title="Crypto Currency" :list="['engineer']" :icon="icon_bitcoin" />
       <Cell title="E Commerce" :list="['engineer']" :icon="icon_ecommerce" />
-      <Cell class="last" title="Crypto Currency" :list="['engineer']" :icon="icon_bitcoin" />
+      <Cell class="last" title="Surveillance" :list="['engineer']" :icon="icon_surveillance" />
+    </Block>
+
+    <Block title="Languages">
+      <Cell title="English" text="Business level" />
+      <Cell title="Japanese" text="Business level" />
+      <Cell class="last" title="Chinese" text="Native" />
     </Block>
 
     <Block title="Education" class="school">
