@@ -25,5 +25,9 @@ export default {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
+  @include lg {
+    max-width: 920px;
+    margin: auto;
+  }
 }
 </style>

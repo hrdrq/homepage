@@ -26,10 +26,13 @@ export default {
   @include md {
     box-sizing: border-box;
     display: inline-block;
-    width: 30%;
-    margin-right: 2%;
+    width: 280px;
+    margin-right: 40px;
     margin-bottom: 60px;
     vertical-align: top;
+    &.last {
+      margin-right: 0;
+    }
   }
   text-align: center;
   .title {

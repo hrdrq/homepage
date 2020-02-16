@@ -4,16 +4,16 @@
     <Block title="Skills">
       <Cell title="C/C++" :list="['Boost', 'Qt', 'CppUTest']" :icon="icon_cpp" />
       <Cell title="Python" :list="['Numpy', 'Pandas', 'Numba', 'Tornado', 'Qt', 'Boost.Python']" :icon="icon_python" />
-      <Cell title="Ruby" :list="['Rails', 'Rspec']" :icon="icon_ruby" />
+      <Cell class="last" title="Ruby" :list="['Rails', 'Rspec']" :icon="icon_ruby" />
       <Cell title="Javascript" :list="['Vue.js', 'Angular.js', 'jQuery']" :icon="icon_javascript" />
       <Cell title="Database" :list="['MySQL', 'MongoDB', 'Treasure Data']" :icon="icon_database" />
-      <Cell title="AWS" :list="['EC2', 'S3', 'RDS', 'Lambda', 'API Gateway']" :icon="icon_aws" />
+      <Cell class="last" title="AWS" :list="['EC2', 'S3', 'RDS', 'Lambda', 'API Gateway']" :icon="icon_aws" />
     </Block>
 
     <Block title="Experience">
       <Cell title="Surveillance" :list="['engineer']" :icon="icon_surveillance" />
       <Cell title="E Commerce" :list="['engineer']" :icon="icon_ecommerce" />
-      <Cell title="Crypto Currency" :list="['engineer']" :icon="icon_bitcoin" />
+      <Cell class="last" title="Crypto Currency" :list="['engineer']" :icon="icon_bitcoin" />
     </Block>
 
     <Block title="Education" class="school">
