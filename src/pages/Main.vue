@@ -80,28 +80,36 @@ export default {
     .school_inner {
       display: inline-block;
       width: 100%;
-      max-width: 600px;
+      max-width: 470px;
+      @include md {
+        max-width: 600px;
+      }
       .school_header {
         margin-top: 15px;
-        display: flex;
-        align-items:center;
-        margin-left: 60px;
+        @include md {
+          display: flex;
+          align-items:center;
+          margin-left: 60px;
+        }
         .school_logo img{
           width: 60px;
           margin-right: 12px;
         }
         .school_name {
-          text-align: left;
+          @include md {
+            text-align: left;
+          }
           font-size: 22px;
           letter-spacing: 0.1em;
         }
       }
       ul {
-        list-style: none;
-        margin: 25px 0 80px 50px;
         text-align: left;
         letter-spacing: 0.08em;
         line-height: 1.6em;
+        @include md {
+          margin: 25px 0 80px 50px;
+        }
       }
     }
   }
