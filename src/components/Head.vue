@@ -4,7 +4,7 @@
     <nav>
       <ul>
         <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/skill">Skill</router-link></li>
+        <li><router-link to="/skills">Skills</router-link></li>
         <li><router-link to="/experience">Experience</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
       </ul>
@@ -111,7 +111,7 @@ header {
       .icon {
         width: 28px;
         height: 28px;
-        fill: $color-front;
+        fill: #4c4c4c;
         @include md {
           width: 22px;
           height: 22px;

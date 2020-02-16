@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 
 import Main from '@/pages/Main.vue';
 import About from '@/pages/About.vue';
-import Skill from '@/pages/Skill.vue';
+import Skills from '@/pages/Skills.vue';
 import Experience from '@/pages/Experience.vue';
 import Contact from '@/pages/Contact.vue';
 
@@ -20,8 +20,8 @@ var router = new VueRouter({
       component: About
     },
     {
-      path: '/skill',
-      component: Skill
+      path: '/skills',
+      component: Skills
     },
     {
       path: '/experience',

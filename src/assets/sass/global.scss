@@ -2,6 +2,8 @@ $lg: 961px;
 $md: 760px;
 $sm: 1px;
 $color-front: #333;
+$color-title: #505050;
+$color-icon: #656565;
 
 @mixin lg {
   @media only screen and (min-width: ($lg)) {
