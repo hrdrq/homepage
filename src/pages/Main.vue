@@ -17,8 +17,8 @@
     </Block>
 
     <Block title="Languages">
-      <Cell title="English" text="Business level" />
-      <Cell title="Japanese" text="Business level" />
+      <Cell title="English" :text="'Business level\nToeic 900'" />
+      <Cell title="Japanese" :text="'Business level\nJLPT N1'" />
       <Cell class="last" title="Chinese" text="Native" />
     </Block>
 

@@ -2,16 +2,19 @@
   <div id="homepage">
     <Head />
     <router-view />
+    <Foot />
   </div>
 </template>
 
 <script>
 import Head from './components/Head.vue'
+import Foot from './components/Foot.vue'
 
 export default {
   name: 'Homepage',
   components: {
-    Head
+    Head,
+    Foot
   }
 }
 </script>

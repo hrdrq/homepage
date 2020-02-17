@@ -33,14 +33,6 @@ export default {
     IconGithub,
     IconHackerrank,
     LanguageSelector
-  },
-  data() {
-    return {
-      arrayOfObjects: [],
-      object: {
-        name: 'Object Name',
-      }
-    }
   }
 }
 </script>

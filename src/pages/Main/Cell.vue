@@ -5,7 +5,7 @@
       <component :is="icon"></component>
     </div>
     <div v-if="image" class="image"></div>
-    <div v-if="text" class="text">{{ text }}</div>
+    <div v-if="text" class="text"><pre>{{ text }}</pre></div>
     <div v-if="list" class="list">
       <ul>
         <li v-for="(value, key) in list" :key="key">{{ value }}</li>

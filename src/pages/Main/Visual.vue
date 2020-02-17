@@ -13,14 +13,15 @@ export default {
 <style scoped lang="scss">
 #visual_div {
   text-align: center;
-  background: #dad9d6;
+  background: #edecec;
   #visual_img {
     vertical-align: bottom;
     height: auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 100px;
     @include md {
-      max-width: 400px;
+      max-width: 160px;
+      margin-left: 550px;
     }
   }
 }
