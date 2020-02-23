@@ -1,7 +1,35 @@
 {
-  "message": {
-    "title": "it is title",
-    "subtitle": "it is subtitle"
+  "main": {
+    "visual": [
+      "This is something I need to write",
+      "Write to introduce who I am and what I did",
+      "But it is not easy to write beautiful words"
+    ]
+  },
+  "about": {
+    "main": [
+      "I should write something here about my works.",
+      "My working experience is about 6 years.",
+      "The companies are all different, and I use different skills.",
+      "Anyway, it will take time to write it."
+    ],
+    "detail": {
+      "Name": "孫 琮博 (Tsung-Po Sun, そん むねひろ)",
+      "Living": "Tokyo, Japan",
+      "E-mail": "congbosun@gmail.com",
+      "得意分野": "Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析",
+      "趣味": "旅行、語学、野球"
+    },
+    "links": {
+      "LinkedIn": {
+        "name": "hrdrq",
+        "url": "https://example.com"
+      },
+      "GitHub": {
+        "name": "hrdrq",
+        "url": "https://example.com"
+      }
+    }
   }
 }
 

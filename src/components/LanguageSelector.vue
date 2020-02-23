@@ -61,7 +61,7 @@ export default {
   min-width: 80px;
   height: 40px;
   position: relative;
-  margin: 10px 1px;
+  margin: 4px 4px 0 4px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -93,12 +93,12 @@ export default {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  /* left: 0; */
   z-index: 1000;
   float: left;
   min-width: 80px;
   padding: 5px 0;
-  margin: 2px 0 0;
+  margin: 4px 0 0;
   list-style: none;
   font-size: 14px;
   text-align: left;

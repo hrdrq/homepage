@@ -102,7 +102,10 @@ export default {
           margin-right: 12px;
         }
         .school_name {
+          display: block;
+          margin-top: 20px;
           @include md {
+            margin-top: 0;
             text-align: left;
           }
           font-size: 22px;

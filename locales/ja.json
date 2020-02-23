@@ -1,6 +1,35 @@
 {
-  "message": {
-    "title": "タイトルだよーん",
-    "subtitle": "ここがサブタイトルになります"
+  "main": {
+    "visual": [
+      "文章文章文章文章文章文章文章文章文章",
+      "テストテストテストテストテストテストテスト",
+      "何か書く何か書く何か書く何か書く何か書く"
+    ]
+  },
+  "about": {
+    "main": [
+      "ここで自分の履歴を書きます。なるべく多くて。",
+      "経験年数はそんなに多くないが。",
+      "自分の性格と自己PRも書いた方がいいかな？自分をアピール！",
+      "時間を取って書こう。"
+    ],
+    "detail": {
+      "名前": "孫 琮博 (Tsung-Po Sun, そん むねひろ)",
+      "在住": "日本東京",
+      "メール": "congbosun@gmail.com",
+      "得意分野": "Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析",
+      "趣味": "旅行、語学、野球"
+    },
+    "links": {
+      "LinkedIn": {
+        "name": "hrdrq",
+        "url": "https://example.com"
+      },
+      "GitHub": {
+        "name": "hrdrq",
+        "url": "https://example.com"
+      }
+    }
   }
 }
+

@@ -2,26 +2,20 @@
   <header>
     <LanguageSelector id="language_selector" />
     <div id="logo"><router-link to="/">Munehiro (Tsung-Po)</router-link></div>
-    <nav>
-      <ul>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/skills">Skills</router-link></li>
-        <li><router-link to="/experience">Experience</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
-      </ul>
-    </nav>
+    <Menu id="header_menu" />
     <ul class="social_btn">
       <!-- <a href="linkedin"><img class="icon" src="../assets/img/linkedin.svg" /></a> -->
-      <a href="linkedin"><IconLinkedin class="icon" /></a>
-      <a href="github"><IconGithub class="icon" /></a>
-      <a href="atcoder"><img class="icon" src="../assets/img/atcoder.png" /></a>
-      <a href="hackerrank"><IconHackerrank class="icon" /></a>
-      <a href="qiita"><img class="icon" src="../assets/img/qiita.png" /></a>
+      <a href="linkedin" target="_blank"><IconLinkedin class="icon" /></a>
+      <a href="github" target="_blank"><IconGithub class="icon" /></a>
+      <a href="atcoder" target="_blank"><img class="icon" src="../assets/img/atcoder.png" /></a>
+      <a href="hackerrank" target="_blank"><IconHackerrank class="icon" /></a>
+      <a href="qiita" target="_blank"><img class="icon" src="../assets/img/qiita.png" /></a>
     </ul>
   </header>
 </template>
 
 <script>
+import Menu from '../components/Menu.vue'
 import IconLinkedin from '../svgs/linkedin.vue'
 import IconGithub from '../svgs/github.vue'
 import IconHackerrank from '../svgs/hackerrank.vue'
@@ -29,6 +23,7 @@ import LanguageSelector from '../components/LanguageSelector.vue'
 export default {
   name: 'Header',
   components: {
+    Menu,
     IconLinkedin,
     IconGithub,
     IconHackerrank,
@@ -42,63 +37,47 @@ header {
   @include md {
     position: relative;
     max-width: 960px;
-    height: 270px;
+    height: 260px;
     margin: 0 auto;
   };
   #logo {
-    font-size: 1.8em;
+    font-size: 23px;
     font-weight: bold;
-    letter-spacing: 0.1em;
-    margin: 21px 0 25px 0;
-    padding-left: 30px;
+    letter-spacing: 1.2px;
+    margin: 0 0 25px 0;
+    padding-left: 15px;
     text-align: left;
     @include md {
+      font-size: 28px;
+      letter-spacing: 2.6px;
       position: absolute;
       top: 107px;
-      left: 50px;
+      left: 40px;
       margin: 0;
       padding-left: 0;
       text-align: center;
     }
+    @include lg {
+      left: 0;
+    }
   }
-  nav {
-    margin-bottom: 20px;
-    border-top: 1px solid #d9d9d9;
+  #header_menu {
     @include md {
       position: absolute;
       bottom: 30px;
       right: 30px;
-      margin-bottom: 0;
-      border-top: none;
     };
     @include lg {
       right: 0;
     };
-    ul {
-      list-style: none;
-      li {
-        float: left;
-        width: 50%;
-        border-bottom: 1px solid #d9d9d9;
-        text-align: center;
-        @include md {
-          margin-left: 50px;
-          display: inline;
-          float: none;
-          border-bottom: none;
-          text-align: right;
-        };
-        a {
-          letter-spacing: 0.1em;
-        }
-      }
-    }
   }
   .social_btn {
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 0;
     @include md {
       position: absolute;
+      margin: 0 auto;
       top: 112px;
       right: 30px;
     };
@@ -107,9 +86,9 @@ header {
     };
     a {
       display: inline;
-      margin-right: 8px;
+      margin: 0 6px;
       @include md {
-        margin-right: 10px;
+        margin: 0 5px;
       }
       .icon {
         width: 28px;
@@ -122,11 +101,9 @@ header {
       }
     }
   }
-  #language_selector {
-    @include md {
-      position: absolute;
-      right: 0px;
-    }
+  #language_selector  {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 </style>
