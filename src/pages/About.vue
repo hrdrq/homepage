@@ -16,16 +16,21 @@
             </tr>
           </table>
           <table>
-            <tr v-for="([key, value], i) in Object.entries($t('about.links'))" :key="i">
-              <td class="key">{{ key }}</td>
+            <tr v-for="([key, value], i) in Object.entries($c('sites'))" :key="i">
+              <td class="key">{{ value.name }}</td>
               <td class="value">
                 <a :href="value.url" target="_blank">
-                  {{ value.name }}
+                  {{ value.id }}
                 </a>
+                <Copier v-if="i===0" :text="value.id" />
               </td>
             </tr>
           </table>
         </div>
+      </div>
+      <div id="this_site">
+        <div id="this_site_title">{{ $t('about.this_site.title' )}}</div>
+        <div id="this_site_content" v-html="$t('about.this_site.html')"></div>
       </div>
     </PageTemplate>
   </div>
@@ -33,10 +38,12 @@
 
 <script>
 import PageTemplate from '../components/PageTemplate.vue'
+import Copier from '../components/Copier.vue'
 export default {
   name: 'About',
   components: {
-    PageTemplate
+    PageTemplate,
+    Copier
   }
 }
 </script>
@@ -85,6 +92,17 @@ export default {
           width: 80%;
         }
       }
+    }
+  }
+  #this_site {
+    font-size: 14px;
+    margin-top: 40px;
+    #this_site_title {
+      font-weight: bold;
+    }
+    a {
+      text-decoration: underline;
+      font-weight: bold;
     }
   }
 }

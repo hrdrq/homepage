@@ -5,11 +5,21 @@
     <Menu id="header_menu" />
     <ul class="social_btn">
       <!-- <a href="linkedin"><img class="icon" src="../assets/img/linkedin.svg" /></a> -->
-      <a href="linkedin" target="_blank"><IconLinkedin class="icon" /></a>
-      <a href="github" target="_blank"><IconGithub class="icon" /></a>
-      <a href="atcoder" target="_blank"><img class="icon" src="../assets/img/atcoder.png" /></a>
-      <a href="hackerrank" target="_blank"><IconHackerrank class="icon" /></a>
-      <a href="qiita" target="_blank"><img class="icon" src="../assets/img/qiita.png" /></a>
+      <a :href="$c('sites.linkedin.url')" target="_blank" :title="$c('sites.linkedin.name')">
+        <IconLinkedin class="icon" />
+      </a>
+      <a :href="$c('sites.github.url')" target="_blank" :title="$c('sites.github.name')">
+        <IconGithub class="icon" />
+      </a>
+      <a :href="$c('sites.atcoder.url')" target="_blank" :title="$c('sites.atcoder.name')">
+        <img class="icon" src="../assets/img/atcoder.png" />
+      </a>
+      <a :href="$c('sites.hackerrank.url')" target="_blank" :title="$c('sites.hackerrank.name')">
+        <IconHackerrank class="icon" />
+      </a>
+      <a :href="$c('sites.qiita.url')" target="_blank" :title="$c('sites.qiita.name')">
+        <img class="icon" src="../assets/img/qiita.png" />
+      </a>
     </ul>
   </header>
 </template>

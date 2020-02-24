@@ -31,6 +31,17 @@ let get_locale = () => {
   return locale
 }
 
+let common_data = require('../locales/common.json')
+let get_common = query => {
+  try {
+    return query.split('.').reduce((o,i) => o[i], common_data)
+  }
+  catch (e) {
+    return query
+  }
+}
+
+Vue.prototype.$c = get_common
 Vue.config.productionTip = false
 Vue.use(VueI18n)
 const i18n = new VueI18n({

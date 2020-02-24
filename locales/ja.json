@@ -16,7 +16,6 @@
     "detail": {
       "名前": "孫 琮博 (Tsung-Po Sun, そん むねひろ)",
       "在住": "日本東京",
-      "メール": "congbosun@gmail.com",
       "得意分野": "Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析",
       "趣味": "旅行、語学、野球"
     },
@@ -29,6 +28,10 @@
         "name": "hrdrq",
         "url": "https://example.com"
       }
+    },
+    "this_site": {
+      "title": "このサイトについて",
+      "html": "自分はデザイナーではないので、<a href=\"https://u-d-l.jp/\" target=\"_blank\">UNDERLINE</a>さんのページを参考させていただき、Vue.jsで作りました。"
     }
   },
   "skills": [
@@ -133,6 +136,11 @@
         }
       ]
     }
-  }
+  },
+  "contact": {
+    "text": "メール、あるいは以下のサイトのダイレクトメッセージにてご連絡いただきますようお願い致します。"
+  },
+  "copy": "コピー",
+  "copied": "コピーしました"
 }
 
