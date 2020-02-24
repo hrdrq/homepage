@@ -1,23 +1,31 @@
 <template>
   <div id="about">
     <PageTemplate title="About">
-      <div id="main">
+      <div id="up">
         <p v-for="(text, i) in $t('about.main')" :key="i">{{ text }}</p>
       </div>
-      <div id="detail">
-        <img src="../assets/img/about.jpg">
-        <dl>
-          <template v-for="([key, value], i) in Object.entries($t('about.detail'))">
-            <dt :key="'dt' + i">{{ key }}</dt>
-            <dd :key="'dd' + i">{{ value }}</dd>
-          </template>
-        </dl>
-        <dl>
-          <template v-for="([key, value], i) in Object.entries($t('about.links'))">
-            <dt :key="'dt' + i">{{ key }}</dt>
-            <dd :key="'dd' + i"><a :href="value.url" target="_blank">{{ value.name }}</a></dd>
-          </template>
-        </dl>
+      <div id=down>
+        <div id="picture">
+          <img src="../assets/img/about.jpg">
+        </div>
+        <div id="detail">
+          <table>
+            <tr v-for="([key, value], i) in Object.entries($t('about.detail'))" :key="i">
+              <td class="key">{{ key }}</td>
+              <td class="value">{{ value }}</td>
+            </tr>
+          </table>
+          <table>
+            <tr v-for="([key, value], i) in Object.entries($t('about.links'))" :key="i">
+              <td class="key">{{ key }}</td>
+              <td class="value">
+                <a :href="value.url" target="_blank">
+                  {{ value.name }}
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     </PageTemplate>
   </div>
@@ -32,3 +40,52 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+#about {
+  #up {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 50px;
+  }
+  #down {
+    @include md {
+      display:flex;
+      flex-diretion: row;
+    }
+    #picture {
+      text-align: center;
+      img {
+        width: 160px;
+      }
+    }
+    #detail {
+      margin-top: 40px;
+      @include md {
+        margin-top: 0;
+        margin-left: 50px;
+      }
+      width: 100%;
+      table {
+        min-width: 100%;
+        /* table-layout: fixed; */
+        margin: 0 0 20px 0;
+        font-size: 13px;
+        td {
+          vertical-align: top;
+        }
+        .key {
+          width: 20%;
+          font-weight: bold;
+          &:after {
+            content: " :"
+          }
+        }
+        .value {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+</style>

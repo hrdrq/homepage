@@ -37,6 +37,7 @@ export default {
   },
   methods: {
     updateOption(option) {
+      document.cookie = 'locale=' + option.value
       this.$root.$i18n.locale = option.value
       this.selectedOption = option
       this.showMenu = false

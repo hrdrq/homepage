@@ -40,6 +40,12 @@
         </ul>
       </div>
     </BLock>
+
+    <Block title="Personal Works" class="personal_work">
+      <Cell title="Dictionary tool" :image="require('../assets/img/dictionary.png')" />
+      <Cell title="Price notification" :image="require('../assets/img/crypto_price.png')" />
+      <Cell class="last" title="Terminal GUI" :image="require('../assets/img/curses.gif')" />
+    </Block>
   </div>
 </template>
 

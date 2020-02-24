@@ -4,7 +4,9 @@
     <div v-if="icon" class="icon">
       <component :is="icon"></component>
     </div>
-    <div v-if="image" class="image"></div>
+    <div v-if="image" class="image">
+      <img :src="image" alt="">
+    </div>
     <div v-if="text" class="text"><pre>{{ text }}</pre></div>
     <div v-if="list" class="list">
       <ul>
@@ -63,6 +65,13 @@ export default {
       max-width: 140px;
       letter-spacing: 0.1em;
       margin-left: 45px;
+    }
+  }
+  .image img{
+    width: 280px;
+    @include md {
+      width: 100%;
+      max-width: 100%;
     }
   }
 }

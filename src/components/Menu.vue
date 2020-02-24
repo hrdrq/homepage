@@ -56,6 +56,7 @@ nav {
       a {
         font-size: 14px;
         letter-spacing: 0.1em;
+        padding: 12px 0;
         &:hover {
           text-decoration: underline;
         }
