@@ -2,24 +2,33 @@
   <div id="main">
     <Visual />
     <Block title="Skills">
-      <Cell title="C/C++" :list="['Boost', 'Qt', 'CppUTest']" :icon="icon_cpp" />
-      <Cell title="Python" :list="['Numpy', 'Pandas', 'Numba', 'Tornado', 'Qt', 'Boost.Python']" :icon="icon_python" />
-      <Cell class="last" title="Ruby" :list="['Rails', 'Rspec']" :icon="icon_ruby" />
-      <Cell title="Javascript" :list="['Vue.js', 'Angular.js', 'jQuery']" :icon="icon_javascript" />
-      <Cell title="Database" :list="['MySQL', 'MongoDB', 'Treasure Data']" :icon="icon_database" />
-      <Cell class="last" title="AWS" :list="['EC2', 'S3', 'RDS', 'Lambda', 'API Gateway']" :icon="icon_aws" />
+      <Cell title="C/C++" :list="$c('main.skills.cpp')" :icon="icon_cpp" />
+      <Cell title="Python" :list="$c('main.skills.python')" :icon="icon_python" />
+      <Cell class="last" title="Ruby" :list="$c('main.skills.ruby')" :icon="icon_ruby" />
+      <Cell title="Javascript" :list="$c('main.skills.javascript')" :icon="icon_javascript" />
+      <Cell title="Database" :list="$c('main.skills.database')" :icon="icon_database" />
+      <Cell class="last" title="AWS" :list="$c('main.skills.aws')" :icon="icon_aws" />
     </Block>
 
     <Block title="Experience">
-      <Cell title="Crypto Currency" :list="['engineer']" :icon="icon_bitcoin" />
-      <Cell title="E Commerce" :list="['engineer']" :icon="icon_ecommerce" />
-      <Cell class="last" title="Surveillance" :list="['engineer']" :icon="icon_surveillance" />
+      <Cell :title="$t('main.experience.crypto.name')"
+            :list="$t('main.experience.crypto.list')"
+            :icon="icon_bitcoin" />
+      <Cell :title="$t('main.experience.ec.name')"
+            :list="$t('main.experience.ec.list')"
+            :icon="icon_ecommerce" />
+      <Cell class="last" :title="$t('main.experience.surveillance.name')"
+            :list="$t('main.experience.surveillance.list')"
+            :icon="icon_surveillance" />
     </Block>
 
     <Block title="Languages">
-      <Cell title="English" :text="'Business level\nToeic 900'" />
-      <Cell title="Japanese" :text="'Business level\nJLPT N1'" />
-      <Cell class="last" title="Chinese" text="Native" />
+      <Cell :title="$t('main.languages.english.name')"
+            :text="$t('main.languages.english.text')" />
+      <Cell :title="$t('main.languages.japanese.name')"
+            :text="$t('main.languages.japanese.text')" />
+      <Cell class="last" :title="$t('main.languages.chinese.name')"
+            :text="$t('main.languages.chinese.text')" />
     </Block>
 
     <Block title="Education" class="school">
@@ -36,22 +45,21 @@
           </div>
         </a>
         <ul>
-          <li>Top University in Taiwan</li>
-          <li>72nd University in QS World University Rankings® 2019</li>
-          <li>Top Science/Engineering department in Taiwan</li>
+          <li v-for="(des, i) in $t('main.education.descriptions')" :key="i">
+            {{ des }}
+          </li>
         </ul>
       </div>
     </BLock>
 
     <Block title="Personal Works" class="personal_work">
-      <Cell title="Dictionary tool"
+      <Cell :title="$t('main.personal_works.dictionary')"
             :image="require('../assets/img/dictionary.png')"
             url="https://github.com/hrdrq/dictionaryUI" />
-      <Cell title="Price notification"
+      <Cell :title="$t('main.personal_works.price')"
             :image="require('../assets/img/crypto_price.png')"
             url="https://github.com/hrdrq/crypto_currencies_price" />
-      <Cell class="last"
-            title="Terminal GUI"
+      <Cell class="last" :title="$t('main.personal_works.ui')"
             :image="require('../assets/img/curses.gif')"
             url="https://github.com/hrdrq/curses_sample" />
     </Block>

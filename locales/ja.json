@@ -5,10 +5,48 @@
       "テストテストテストテストテストテストテスト",
       "何か書く何か書く何か書く何か書く何か書く"
     ],
+    "experience": {
+      "crypto": {
+        "name": "Crypto Currency",
+        "list": ["engineer"]
+      },
+      "ec": {
+        "name": "E Commerce",
+        "list": ["engineer"]
+      },
+      "surveillance": {
+        "name": "Surveillance",
+        "list": ["engineer"]
+      }
+    },
+    "languages": {
+      "english": {
+        "name": "English",
+        "text": "Business level\nToeic 900"
+      },
+      "japanese": {
+        "name": "Japanese",
+        "text": "Business level\nJLPT N1"
+      },
+      "chinese": {
+        "name": "Chinese",
+        "text": "Native"
+      }
+    },
     "education": {
       "school_name": "国立台湾大学",
       "department_name": "電機工程学科(電気工学)",
-      "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E7%AB%8B%E5%8F%B0%E6%B9%BE%E5%A4%A7%E5%AD%A6"
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E7%AB%8B%E5%8F%B0%E6%B9%BE%E5%A4%A7%E5%AD%A6",
+      "descriptions": [
+        "Top University in Taiwan",
+        "72nd University in QS World University Rankings® 2019",
+        "Top Science/Engineering department in Taiwan"
+      ]
+    },
+    "personal_works": {
+      "dictionary": "Dictionary tool",
+      "price": "Price notification",
+      "ui": "Terminal GUI"
     }
   },
   "about": {
@@ -23,16 +61,6 @@
       "在住": "日本東京",
       "得意分野": "Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析",
       "趣味": "旅行、語学、野球"
-    },
-    "links": {
-      "LinkedIn": {
-        "name": "hrdrq",
-        "url": "https://example.com"
-      },
-      "GitHub": {
-        "name": "hrdrq",
-        "url": "https://example.com"
-      }
     },
     "this_site": {
       "title": "このサイトについて",
@@ -55,6 +83,13 @@
           "detail": [
             "クローリングとスクレイピング",
             "Pandas、Matplotlib、jupyterでデータ分析"
+          ]
+        },
+        {
+          "type": "PHP",
+          "detail": [
+            "CakePHP",
+            "Wordpress"
           ]
         }
       ]

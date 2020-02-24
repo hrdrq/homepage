@@ -20,3 +20,8 @@ $color-icon: #656565;
     @content;
   }
 }
+@mixin mini {
+  @media only screen and (max-width: (339px)) {
+    @content;
+  }
+}

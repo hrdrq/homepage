@@ -4,7 +4,50 @@
       "This is something I need to write",
       "Write to introduce who I am and what I did",
       "But it is not easy to write beautiful words"
-    ]
+    ],
+    "experience": {
+      "crypto": {
+        "name": "Crypto Currency",
+        "list": ["engineer"]
+      },
+      "ec": {
+        "name": "E Commerce",
+        "list": ["engineer"]
+      },
+      "surveillance": {
+        "name": "Surveillance",
+        "list": ["engineer"]
+      }
+    },
+    "languages": {
+      "english": {
+        "name": "English",
+        "text": "Business level\nToeic 900"
+      },
+      "japanese": {
+        "name": "Japanese",
+        "text": "Business level\nJLPT N1"
+      },
+      "chinese": {
+        "name": "Chinese",
+        "text": "Native"
+      }
+    },
+    "education": {
+      "school_name": "National Taiwan University",
+      "department_name": "Department of Electrical Engineering",
+      "wiki": "https://en.wikipedia.org/wiki/National_Taiwan_University",
+      "descriptions": [
+        "Top University in Taiwan",
+        "72nd University in QS World University Rankings® 2019",
+        "Top Science/Engineering department in Taiwan"
+      ]
+    },
+    "personal_works": {
+      "dictionary": "Dictionary tool",
+      "price": "Price notification",
+      "ui": "Terminal GUI"
+    }
   },
   "about": {
     "main": [
@@ -19,16 +62,6 @@
       "E-mail": "congbosun@gmail.com",
       "得意分野": "Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析",
       "趣味": "旅行、語学、野球"
-    },
-    "links": {
-      "LinkedIn": {
-        "name": "hrdrq",
-        "url": "https://example.com"
-      },
-      "GitHub": {
-        "name": "hrdrq",
-        "url": "https://example.com"
-      }
     }
   }
 }
