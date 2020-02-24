@@ -59,13 +59,13 @@ export default {
 
 <style scoped lang="scss">
 #copier {
-  margin-left: 4px;
+  margin-left: 6px;
   #icon {
     &:hover {
       cursor: pointer;
     }
     svg {
-      width: 12px;
+      width: 16px;
       stroke: $color-front;
     }
   }

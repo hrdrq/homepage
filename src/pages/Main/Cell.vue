@@ -1,25 +1,31 @@
 <template>
   <div class="cell">
-    <h2 v-if="title" class="title">{{ title }}</h2>
-    <div v-if="icon" class="icon">
-      <component :is="icon"></component>
-    </div>
-    <div v-if="image" class="image">
-      <img :src="image" alt="">
-    </div>
-    <div v-if="text" class="text"><pre>{{ text }}</pre></div>
-    <div v-if="list" class="list">
-      <ul>
-        <li v-for="(value, key) in list" :key="key">{{ value }}</li>
-      </ul>
-    </div>
+    <AWrapper :href="url" target="_blank">
+      <h2 v-if="title" class="title">{{ title }}</h2>
+      <div v-if="icon" class="icon">
+        <component :is="icon"></component>
+      </div>
+      <div v-if="image" class="image">
+        <img :src="image" alt="">
+      </div>
+      <div v-if="text" class="text"><pre>{{ text }}</pre></div>
+      <div v-if="list" class="list">
+        <ul>
+          <li v-for="(value, key) in list" :key="key">{{ value }}</li>
+        </ul>
+      </div>
+    </AWrapper>
   </div>
 </template>
 
 <script>
+import AWrapper from '../../components/AWrapper.vue'
 export default {
   name: 'Cell',
-  props: ['title', 'text', 'icon', 'image', 'list']
+  props: ['title', 'text', 'icon', 'image', 'list', 'url'],
+  components: {
+    AWrapper
+  }
 }
 </script>
 

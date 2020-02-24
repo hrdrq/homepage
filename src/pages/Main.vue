@@ -24,15 +24,17 @@
 
     <Block title="Education" class="school">
       <div class="school_inner">
-        <div class="school_header">
-          <span class="school_logo">
-            <img src="../assets/img/ntu.png" alt="">
-          </span>
-          <span class="school_name">
-            <div>National Taiwan University,</div>
-            <div>Department of Electrical Engineering</div>
-          </span>
-        </div>
+        <a :href="$t('main.education.wiki')" target="_blank">
+          <div class="school_header">
+              <span class="school_logo">
+                <img src="../assets/img/ntu.png" alt="">
+              </span>
+              <span class="school_name">
+                <div>{{ $t('main.education.school_name') }},</div>
+                <div>{{ $t('main.education.department_name') }}</div>
+              </span>
+          </div>
+        </a>
         <ul>
           <li>Top University in Taiwan</li>
           <li>72nd University in QS World University Rankings® 2019</li>
@@ -42,9 +44,16 @@
     </BLock>
 
     <Block title="Personal Works" class="personal_work">
-      <Cell title="Dictionary tool" :image="require('../assets/img/dictionary.png')" />
-      <Cell title="Price notification" :image="require('../assets/img/crypto_price.png')" />
-      <Cell class="last" title="Terminal GUI" :image="require('../assets/img/curses.gif')" />
+      <Cell title="Dictionary tool"
+            :image="require('../assets/img/dictionary.png')"
+            url="https://github.com/hrdrq/dictionaryUI" />
+      <Cell title="Price notification"
+            :image="require('../assets/img/crypto_price.png')"
+            url="https://github.com/hrdrq/crypto_currencies_price" />
+      <Cell class="last"
+            title="Terminal GUI"
+            :image="require('../assets/img/curses.gif')"
+            url="https://github.com/hrdrq/curses_sample" />
     </Block>
   </div>
 </template>

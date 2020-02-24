@@ -97,6 +97,7 @@ export default {
   #this_site {
     font-size: 14px;
     margin-top: 40px;
+    line-height: 24px;
     #this_site_title {
       font-weight: bold;
     }
