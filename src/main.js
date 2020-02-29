@@ -31,7 +31,7 @@ let get_locale = () => {
   return locale
 }
 
-let common_data = require('../locales/common.json')
+let common_data = require('../locales/common.yml')
 let get_common = query => {
   try {
     return query.split('.').reduce((o,i) => o[i], common_data)
@@ -47,10 +47,10 @@ Vue.use(VueI18n)
 const i18n = new VueI18n({
   locale: get_locale(),
   messages: {
-    'en': require('../locales/en.json'),
-    'ja': require('../locales/ja.json'),
-    'zh-tw': require('../locales/zh-tw.json'),
-    'zh-cn': require('../locales/zh-cn.json')
+    'en': require('../locales/en.yml'),
+    'ja': require('../locales/ja.yml'),
+    'zh-tw': require('../locales/zh-tw.yml'),
+    'zh-cn': require('../locales/zh-cn.yml')
   }
 })
 

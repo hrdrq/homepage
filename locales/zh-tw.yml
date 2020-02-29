@@ -1,0 +1,135 @@
+main:
+  visual:
+  - This is something I need to write!
+  - Write to introduce who I am and what I did
+  - But it is not easy to write beautiful words
+  experience:
+    crypto:
+      name: Cryptocurrency Exchange
+      list:
+      - WEB backend
+    ec:
+      name: EC Service
+      list:
+      - WEB backend
+      - WEB frontend
+    surveillance:
+      name: Surveillance Maker
+      list:
+      - engineer
+  languages:
+    english:
+      name: English
+      text: |-
+        Business level
+        Toeic 900
+    japanese:
+      name: Japanese
+      text: |-
+        Business level
+        JLPT N1
+    chinese:
+      name: Chinese
+      text: Native
+  education:
+    school_name: National Taiwan University
+    department_name: Department of Electrical Engineering
+    wiki: https://en.wikipedia.org/wiki/National_Taiwan_University
+    descriptions:
+    - Top University in Taiwan
+    - 72nd University in QS World University Rankings® 2019
+    - Top Science/Engineering department in Taiwan
+  personal_works:
+    dictionary: Dictionary tool
+    price: Price notification
+    ui: Terminal GUI
+    darvish: Funsite
+    reading: Oral reading tool
+about:
+  main:
+  - I should write something here about my works.
+  - My working experience is about 6 years.
+  - The companies are all different, and I use different skills.
+  - Anyway, it will take time to write it.
+  detail:
+    Name: 孫 琮博 (Tsung-Po Sun, そん むねひろ)
+    Living: Tokyo, Japan
+    E-mail: congbosun@gmail.com
+    得意分野: Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析
+    趣味: 旅行、語学、野球
+  this_site:
+    title: About this site
+    html: Because I am not a designer, I made this site referencing the site of <a
+      href="https://u-d-l.jp/" target="_blank">UNDERLINE</a> with Vue.js.
+skills:
+- group: プログラミング
+  contents:
+  - type: C/C++
+    detail:
+    - パソコンのアプリケーション開発
+    - CppUTestでテスト
+  - type: Python
+    detail:
+    - クローリングとスクレイピング
+    - Pandas、Matplotlib、jupyterでデータ分析
+  - type: PHP
+    detail:
+    - CakePHP
+    - Wordpress
+  - type: GraphQL
+- group: ツール
+  contents:
+  - type: Vim
+  - type: CircleCI
+  - type: Makefile
+  - type: Bash
+  - type: Firebase
+- group: 語学
+  contents:
+  - type: 英語
+    detail:
+    - TOEIC 900
+    - 外国籍の友人が多く、日常の会話もビジネス的な会話もできます
+  - type: 日本語
+    detail:
+    - JLPT N1
+    - 約4年間日本企業で勤めています
+  - type: 中国語
+    detail:
+    - 母国語です
+  - type: 台湾語
+    detail:
+    - 母国語です
+experience:
+  work:
+    key: 職務
+    value:
+    - company: Coincheck
+      url: https://corporate.coincheck.com
+      period: 2018.9 ~
+      contents:
+      - name: 年間取引
+        detail:
+        - csv
+        - sidekiq
+    - company: Marketenterprise
+      url: https://www.marketenterprise.co.jp/index.php
+      period: 2016.10 ~ 2018.9
+      contents:
+      - name: Development of new rental service
+        detail:
+        - csv
+        - sidekiq
+  personal:
+    key: 個人開発
+    value:
+    - name: dictionary
+      url: https://github.com
+      detail:
+      - 単語を追加
+      - scraping
+contact:
+  text: メール、あるいは以下のサイトのダイレクトメッセージにてご連絡いただきますようお願い致します。
+copy: コピー
+copied: コピーしました
+

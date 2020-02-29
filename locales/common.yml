@@ -1,0 +1,56 @@
+main:
+  skills:
+    cpp:
+    - Boost
+    - Qt
+    - CppUTest
+    python:
+    - Numpy
+    - Pandas
+    - Numba
+    - Tornado
+    - Qt
+    - Boost.Python
+    ruby:
+    - Rails
+    - Rspec
+    javascript:
+    - Vue.js
+    - Angular.js
+    - jQuery
+    database:
+    - MySQL
+    - MongoDB
+    - Treasure Data
+    aws:
+    - EC2
+    - S3
+    - RDS
+    - Lambda
+    - API Gateway
+sites:
+  email:
+    url: mailto:congbosun@gmail.com
+    name: Email
+    id: congbosun@gmail.com
+  linkedin:
+    url: http://www.linkedin.com/
+    name: LinkedIn
+    id: ''
+  github:
+    url: https://github.com/hrdrq
+    name: GitHub
+    id: hrdrq
+  atcoder:
+    url: https://atcoder.jp/users/munehiro
+    name: AtCoder
+    id: munehiro
+  hackerrank:
+    url: https://www.hackerrank.com/s_hiro
+    name: HackerRank
+    id: s_hiro
+  qiita:
+    url: https://qiita.com/hrdrq
+    name: Qitta
+    id: hrdrq
+
