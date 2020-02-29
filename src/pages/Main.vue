@@ -59,6 +59,12 @@
       <Cell :title="$t('main.personal_works.price')"
             :image="require('../assets/img/crypto_price.png')"
             url="https://github.com/hrdrq/crypto_currencies_price" />
+      <Cell class="last" :title="$t('main.personal_works.darvish')"
+            :image="require('../assets/img/darvish.png')"
+            url="https://github.com/hrdrq/darvish" />
+      <Cell :title="$t('main.personal_works.reading')"
+            :image="require('../assets/img/reading.png')"
+            url="https://github.com/hrdrq/reading_tool" />
       <Cell class="last" :title="$t('main.personal_works.ui')"
             :image="require('../assets/img/curses.gif')"
             url="https://github.com/hrdrq/curses_sample" />

@@ -7,12 +7,14 @@
     ],
     "experience": {
       "crypto": {
-        "name": "Crypto Currency",
-        "list": ["engineer"]
+        "name": "仮想通貨取引所",
+        "list": ["WEBバックエンド"]
       },
       "ec": {
-        "name": "E Commerce",
-        "list": ["engineer"]
+        "name": "ECサービス",
+        "list": [
+          "WEBバックエンド",
+          "WEBフロントエンド"]
       },
       "surveillance": {
         "name": "Surveillance",
@@ -46,7 +48,9 @@
     "personal_works": {
       "dictionary": "Dictionary tool",
       "price": "Price notification",
-      "ui": "Terminal GUI"
+      "ui": "Terminal GUI",
+      "darvish": "ファンサイト",
+      "reading": "朗読練習ツール"
     }
   },
   "about": {
@@ -64,7 +68,7 @@
     },
     "this_site": {
       "title": "このサイトについて",
-      "html": "自分はデザイナーではないので、<a href=\"https://u-d-l.jp/\" target=\"_blank\">UNDERLINE</a>さんのページを参考させていただき、Vue.jsで作りました。"
+      "html": "自分はデザイナーではないので、<a href=\"https://u-d-l.jp/\" target=\"_blank\">UNDERLINE</a>さんのページを参考にして、Vue.jsで作りました。"
     }
   },
   "skills": [
@@ -91,6 +95,9 @@
             "CakePHP",
             "Wordpress"
           ]
+        },
+        {
+          "type": "GraphQL"
         }
       ]
     },
@@ -108,6 +115,9 @@
         },
         {
           "type": "Bash"
+        },
+        {
+          "type": "Firebase"
         }
       ]
     },
@@ -157,6 +167,37 @@
               "detail": [
                 "csv",
                 "sidekiq"
+              ]
+            }
+          ]
+        },
+        {
+          "company": "Marketenterprise",
+          "url": "https://www.marketenterprise.co.jp/index.php",
+          "period": "2016.10 ~ 2018.9",
+          "contents": [
+            {
+              "name": "新規レンタルサービスの開発",
+              "detail": [
+                "APIとデータベースの設計と開発",
+                "商品・顧客・受注・決済などの管理機能",
+                "AWSでデプロイと運用"
+              ]
+            },
+            {
+              "name": "営業部のKPIを可視化",
+              "detail": [
+                "バックエンド・フロントエンドすべての設計と開発",
+                "データベースから自動的にグラフとテーブルを作成",
+                "毎日煩雑なデータ入力をなくした"
+              ]
+            },
+            {
+              "name": "顧客情報の統合",
+              "detail": [
+                "システムに重複な顧客データが沢山存在した",
+                "顧客情報で似ている顧客を探り出し類似度を算出",
+                "類似度により全自動と半自動処理"
               ]
             }
           ]
