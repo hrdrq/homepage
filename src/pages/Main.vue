@@ -65,6 +65,9 @@
       <Cell :title="$t('main.personal_works.reading')"
             :image="require('../assets/img/reading.png')"
             url="https://github.com/hrdrq/reading_tool" />
+      <Cell :title="$t('main.personal_works.price_search')"
+            :image="require('../assets/img/price_search.png')"
+            url="https://github.com/hrdrq/price_search" />
       <Cell class="last" :title="$t('main.personal_works.ui')"
             :image="require('../assets/img/curses.gif')"
             url="https://github.com/hrdrq/curses_sample" />

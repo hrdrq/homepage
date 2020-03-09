@@ -1,61 +1,65 @@
 main:
   visual:
-  - 文章文章文章文章文章文章文章文章文章
-  - テストテストテストテストテストテストテスト
-  - 何か書く何か書く何か書く何か書く何か書く
+  - 生活の利便性が高まり、
+  - 効率化により新たな価値が生まれる開発を、
+  - 自分の努力と好奇心で実現したいと思います。
   experience:
     crypto:
       name: 仮想通貨取引所
       list:
-      - WEBバックエンド
+      - WEBサービス開発
+      - プロジェクトマネジメント
     ec:
       name: ECサービス
       list:
-      - WEBバックエンド
-      - WEBフロントエンド
+      - WEBサービス開発
+      - 業務効率改善
     surveillance:
-      name: Surveillance
+      name: 防犯カメラメーカー
       list:
-      - engineer
+      - 組込みシステム開発
+      - アプリケーション開発
   languages:
     english:
-      name: English
+      name: 英語
       text: |-
-        Business level
+        ビジネスレベル
         Toeic 900
     japanese:
-      name: Japanese
+      name: 日本語
       text: |-
-        Business level
+        ビジネスレベル
         JLPT N1
     chinese:
-      name: Chinese
-      text: Native
+      name: 中国語
+      text: ネイティブ
   education:
     school_name: 国立台湾大学
     department_name: 電機工程学科(電気工学)
     wiki: https://ja.wikipedia.org/wiki/%E5%9B%BD%E7%AB%8B%E5%8F%B0%E6%B9%BE%E5%A4%A7%E5%AD%A6
     descriptions:
-    - Top University in Taiwan
-    - 72nd University in QS World University Rankings® 2019
-    - Top Science/Engineering department in Taiwan
+    - 台湾のトップ大学
+    - 2019年のQS世界大学ランキング72位
+    - 台湾の理系学科ランキング1位(医学部を除く)
   personal_works:
-    dictionary: Dictionary tool
-    price: Price notification
-    ui: Terminal GUI
+    dictionary: 辞書ツール
+    price: 価格通知
+    ui: ターミナルGUI
     darvish: ファンサイト
     reading: 朗読練習ツール
+    price_search: 価格比較ツール
 about:
   main:
-  - ここで自分の履歴を書きます。なるべく多くて。
-  - 経験年数はそんなに多くないが。
-  - 自分の性格と自己PRも書いた方がいいかな？自分をアピール！
-  - 時間を取って書こう。
+  - 東京にソフトエンジニアをしております。
+  - 2016年に来日。
+  - 技術を生かして生活を便利にしている。
+  - 学習と実装のスピードが好評。
   detail:
     名前: 孫 琮博 (Tsung-Po Sun, そん むねひろ)
+    出身: 台湾台南
     在住: 日本東京
-    得意分野: Web開発(Backend/Frontend)、サービス運用管理、AWS開発、データベース管理、Crawling/Scraping、データ分析
-    趣味: 旅行、語学、野球
+    得意分野: Web開発(バックエンド/フロントエンド)、サービス運用管理、AWS開発、データベース管理、クローリング/スクレイピング、データ分析
+    趣味: 旅行、語学、トレーニング、野球
   this_site:
     title: このサイトについて
     html: 自分はデザイナーではないので、<a href="https://u-d-l.jp/" target="_blank">UNDERLINE</a>さんのページを参考にして、Vue.jsで作りました。
@@ -64,30 +68,60 @@ skills:
   contents:
   - type: C/C++
     detail:
-    - パソコンのアプリケーション開発
-    - CppUTestでテスト
+    - 組込みシステム開発
+    - デスクトップアプリケーション開発
   - type: Python
     detail:
+    - WEBサービス
+    - Numpy、Pandas、Matplotlib、Jupyterにてデータ分析
     - クローリングとスクレイピング
-    - Pandas、Matplotlib、jupyterでデータ分析
+  - type: Ruby
+    detail:
+    - Ruby on Rails
+  - type: Javascript
+    detail:
+    - Vue.js
+    - Angular.js
+    - jQuery
+  - type: データベース
+    detail:
+    - MySQL
+    - MongoDB
   - type: PHP
     detail:
     - CakePHP
     - Wordpress
-  - type: GraphQL
-- group: ツール
+- group: ツール/サービス
   contents:
+  - type: AWS
+    detail:
+    - EC2
+    - S3
+    - Lambda
+    - DynamoDB
+    - API
+    - Gateway
+    - CloudWatch
+    - RDS
+    - SQS
+    - IAM
+    - CloudFront
+    - Kinesis
+    - Route 53
   - type: Vim
   - type: CircleCI
   - type: Makefile
   - type: Bash
+  - type: Treasure Data
+  - type: GraphQL
   - type: Firebase
+  - type: Heroku
 - group: 語学
   contents:
   - type: 英語
     detail:
     - TOEIC 900
-    - 外国籍の友人が多く、日常の会話もビジネス的な会話もできます
+    - アメリカのエンジニアと共同作業の経験あり
   - type: 日本語
     detail:
     - JLPT N1
@@ -106,10 +140,49 @@ experience:
       url: https://corporate.coincheck.com
       period: 2018.9 ~
       contents:
-      - name: 年間取引
+      - name: 入金システム
         detail:
-        - csv
-        - sidekiq
+        - 入金名義例外処理
+        - 銀行明細をスクレイピング
+        - 顧客問い合わせ数を減らした
+      - name: Nuxt化/API化
+        detail:
+        - 既存のサイトをAPIにて再構築
+      - name: 年間取引履歴
+        detail:
+        - 顧客さんが損益を計算するための書類
+        - 既存の機能の改善と拡張
+      - name: TMS(Transaction Monitoring System)
+        detail:
+        - 疑わしい操作をするユーザーを検知
+        - データベースで情報を抽出
+      - name: KYC(Know Your Customer)
+        detail:
+        - 本人確認書類管理システム
+        - ハイリスク顧客を検知
+      - name: 販売所レバレッジ（保留中）
+        detail:
+        - カバー先と連携
+        - レート取得と管理
+        - 証拠金維持率とロスカット機能
+      - name: 販売所新規通貨
+        detail:
+        - サービス拡張の対応
+      - name: キャンペーン実施
+        detail:
+        - 顧客分析と実装
+        - 申込画面と特典付与処理
+      - name: SEO対策
+        detail:
+        - マーケティング部と連携
+      - name: 通知プッシュ改善
+        detail:
+        - 通知内容のカスタマイズ
+      - name: プロジェクトマネージャー
+        detail:
+        - 部署のプロジェクト管理
+        - 他部署とのコミュニケーション
+        - メンバーのリソース管理
     - company: Marketenterprise
       url: https://www.marketenterprise.co.jp/index.php
       period: 2016.10 ~ 2018.9
@@ -118,7 +191,6 @@ experience:
         detail:
         - APIとデータベースの設計と開発
         - 商品・顧客・受注・決済などの管理機能
-        - AWSでデプロイと運用
       - name: 営業部のKPIを可視化
         detail:
         - バックエンド・フロントエンドすべての設計と開発
@@ -128,15 +200,120 @@ experience:
         detail:
         - システムに重複な顧客データが沢山存在した
         - 顧客情報で似ている顧客を探り出し類似度を算出
-        - 類似度により全自動と半自動処理
+        - 類似度により全自動と半自動処理が可能
+      - name: 商品価格収集
+        detail:
+        - 各ネットショップで商品の価格を取得するツール
+        - バイヤーが中古商品の相場を把握できる
+      - name: コールセンター履歴収集
+        detail:
+        - システム操作と電話履歴を紐付けた
+        - 受注と関連する電話が録音を聞けるようにした
+      - name: 受注管理画面を刷新
+        detail:
+        - 8割の社員が利用する
+        - 項目を正規化し、データマイニングできるようになった
+        - UX改善で作業効率が上がり、社員のストレスが軽減
+      - name: 車両配置システム
+        detail:
+        - 一ヶ月程度の案件を最適ルートを算出
+        - 同じリソースで処理できる案件が２割増加
+        - 遠回りによる運転手のストレスが軽減
+      - name: 伝票電子化
+        detail:
+        - 紙の管理が不要
+        - 伝票情報を写し直すことが不要
+      - name: 商品撮影プロセス改善
+        detail:
+        - モバイル端末で処理を完結させた
+        - 別途にアップロードすることが不要
+
+    - company: EverFocus
+      url: https://www.everfocus.com/
+      period: 2011.10 ~ 2013.10
+      contents:
+      - name: ファームウェア開発
+        detail:
+        - リモート装置の制御
+        - HDDのファイルシステム設計
+        - 録画と再生の処理
+        - 組込みWEBサーバー
+        - クライアントとの連携
+      - name: コードベースリファクタリング
+        detail:
+        - 多機種で使えるコードを共通化
+        - モジュール単位で分割
+      - name: クラウドサービス
+        detail:
+        - ビデオリコーダのクラウド化
+        - データストリーミング
+        - 認証と暗号化
+      - name: クライアント開発
+        detail:
+        - デスクトップクライアント
+        - カメラ数拡張と新機能追加 
   personal:
     key: 個人開発
     value:
     - name: dictionary
-      url: https://github.com
+      url: https://github.com/hrdrq/dictionaryUI
       detail:
-      - 単語を追加
-      - scraping
+      - 各サイトから単語の情報を収集
+      - データベースで管理
+      - 長年日本語と英語の勉強で使用
+    - name: price_search
+      url: https://github.com/hrdrq/price_search
+      detail:
+      - 各ネットショップの商品情報を収集
+      - 日本と台湾の相場を比較できる
+    - name: darvish
+      url: https://github.com/hrdrq/darvish
+      detail:
+      - 野球選手のダルビッシュ有投手の情報サイト
+      - ブログの中国語翻訳を投稿
+    - name: homepage
+      url: https://github.com/hrdrq/homepage
+      detail:
+      - このサイトです
+    - name: reading_tool
+      url: https://github.com/hrdrq/reading_tool
+      detail:
+      - 朗読の練習ツール
+      - フレーズ単位で音声再生
+      - 自分の声を録音し自動再生で比較が可能
+    - name: listening_tool
+      url: https://github.com/hrdrq/listening_tool
+      detail:
+      - 音声と字幕を再生するシンプルなツール
+    - name: transcript
+      url: https://github.com/hrdrq/transcript
+      detail:
+      - 英語のテキストを単語表にする
+      - 動詞の時制や名詞の複数形などを正規化
+    - name: crypto_currencies_price
+      url: https://github.com/hrdrq/crypto_currencies_price
+      detail:
+      - 複数の仮想通貨のローソク足チャートを同時に表示
+      - slackに投稿する機能
+    - name: compress
+      url: https://github.com/hrdrq/compress
+      detail:
+      - 大量の音声と画像を圧縮するツール
+    - name: crawler
+      url: https://github.com/hrdrq/crawler
+      detail:
+      - サイトの情報を収集する
+    - name: curses_sample
+      url: https://github.com/hrdrq/curses_sample
+      detail:
+      - ターミナルのPythonの簡易なGUI
+    - name: priceAMZ
+      url: https://github.com/hrdrq/priceAMZ
+      detail:
+      - Amazonの商品情報を収集
+
+
+
 contact:
   text: メール、あるいは以下のサイトのダイレクトメッセージにてご連絡いただきますようお願い致します。
 copy: コピー

@@ -1,6 +1,7 @@
 main:
   skills:
     cpp:
+    - Visual C++
     - Boost
     - Qt
     - CppUTest
@@ -8,7 +9,7 @@ main:
     - Numpy
     - Pandas
     - Numba
-    - Tornado
+    - Flask/Tornado
     - Qt
     - Boost.Python
     ruby:
