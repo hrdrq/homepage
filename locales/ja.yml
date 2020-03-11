@@ -294,7 +294,7 @@ experience:
       url: https://github.com/hrdrq/crypto_currencies_price
       detail:
       - 複数の仮想通貨のローソク足チャートを同時に表示
-      - slackに投稿する機能
+      - Slackに投稿する機能
     - name: compress
       url: https://github.com/hrdrq/compress
       detail:

@@ -150,167 +150,168 @@ experience:
         - Rebuild the site of Ruby on Rails with API and Nuxt
       - name: Annual trading record
         detail:
-        - Customers can download for income statement
+        - Customers can download it for income statement
         - Improvement of the existed service
       - name: TMS(Transaction Monitoring System)
         detail:
-        - 疑わしい操作をするユーザーを検知
-        - データベースで情報を抽出
+        - To detect doubtful behaviors of users
+        - Extracting data from plenty of tables in database
       - name: KYC(Know Your Customer)
         detail:
-        - 本人確認書類管理システム
-        - ハイリスク顧客を検知
-      - name: 販売所レバレッジ（保留中）
+        - System of managing identity verification documents
+        - Detecting high-risk customers
+      - name: Leverage buy/sell service (project suspended)
         detail:
-        - カバー先と連携
-        - レート取得と管理
-        - 証拠金維持率とロスカット機能
-      - name: 販売所新規通貨
+        - Development with coverd broker's API
+        - Acquiring and management of currency rates
+        - Deposit maintenance rate and loss cut
+      - name: New cryptocurrency trading
         detail:
-        - サービス拡張の対応
-      - name: キャンペーン実施
+        - Update buy/sell service for new currencies 
+      - name: Campaigns launching
         detail:
-        - 顧客分析と実装
-        - 申込画面と特典付与処理
-      - name: SEO対策
+        - Customer analysis and system development
+        - Registration page and rewards granting
+      - name: SEO strategy
         detail:
-        - マーケティング部と連携
-      - name: 通知プッシュ改善
+        - cooperation with marketing department
+      - name: Improvement of push notification
         detail:
-        - 通知内容のカスタマイズ
-      - name: プロジェクトマネージャー
+        - Notification for specific customers
+        - Increase the types of notifications
+      - name: Project manager
         detail:
-        - 部署のプロジェクト管理
-        - 他部署とのコミュニケーション
-        - メンバーのリソース管理
+        - Management of projects in department
+        - Communication with other departments
+        - Human resource management of members
     - company: Marketenterprise
       url: https://www.marketenterprise.co.jp/index.php
       period: 2016.10 ~ 2018.9
       contents:
-      - name: 新規レンタルサービスの開発
+      - name: Development of new service
         detail:
-        - APIとデータベースの設計と開発
-        - 商品・顧客・受注・決済などの管理機能
-      - name: 営業部のKPIを可視化
+        - API, database, and webpage
+        - Management functions of products, customers, orders, and payment
+      - name: Visualization of KPI of sales department
         detail:
-        - バックエンド・フロントエンドすべての設計と開発
-        - データベースから自動的にグラフとテーブルを作成
-        - 毎日煩雑なデータ入力をなくした
-      - name: 顧客情報の統合
+        - Design and development of front-end end back-end
+        - Graphs and tables are created automatically
+        - Troublesome manual input procedures are no longer needed.
+      - name: Integration of customers' information
         detail:
-        - システムに重複な顧客データが沢山存在した
-        - 顧客情報で似ている顧客を探り出し類似度を算出
-        - 類似度により全自動と半自動処理が可能
-      - name: 商品価格収集
+        - There were many duplicate information of customers
+        - Find out the similar information and calculate the similarity
+        - The customers' information can be merged automatically or semi-automatically
+      - name: Price information gathering
         detail:
-        - 各ネットショップで商品の価格を取得するツール
-        - バイヤーが中古商品の相場を把握できる
-      - name: コールセンター履歴収集
+        - A tool to get prices of products from several online shops
+        - Buyers can know the average cost for the products
+      - name: Collecting call history of call center
         detail:
-        - システム操作と電話履歴を紐付けた
-        - 受注と関連する電話が録音を聞けるようにした
-      - name: 受注管理画面を刷新
+        - Link the system log with call history
+        - The recordings of phone related to the orders can be played on the system
+      - name: Renovation of order system
         detail:
-        - 8割の社員が利用する
-        - 項目を正規化し、データマイニングできるようになった
-        - UX改善で作業効率が上がり、社員のストレスが軽減
-      - name: 車両配置システム
+        - The system is used by employees more than 80%
+        - Normalize the columns for data-mining
+        - With the improvement of UX, the efficiency of work had increased. The stress of works had relieved
+      - name: Vehicle allocating system
         detail:
-        - 一ヶ月程度の案件を最適ルートを算出
-        - 同じリソースで処理できる案件が２割増加
-        - 遠回りによる運転手のストレスが軽減
-      - name: 伝票電子化
+        - Optimize the routes for business trips within about a month
+        - With the same vehicles, the number of business cases increased by about 20%
+        - The drives' stress due to detour had relieved
+      - name: Payment slip digitization
         detail:
-        - 紙の管理が不要
-        - 伝票情報を写し直すことが不要
-      - name: 商品撮影プロセス改善
+        - The management of papers are not needed anymore
+        - Data input from papers is also not needed
+      - name: Photo-shooot procedure improvement
         detail:
-        - モバイル端末で処理を完結させた
-        - 別途にアップロードすることが不要
+        - Complete the procedure with only a mobile device
+        - Uploading with computer is not needed anymore
 
     - company: EverFocus
       url: https://www.everfocus.com/
       period: 2011.10 ~ 2013.10
       contents:
-      - name: ファームウェア開発
+      - name: Firmware development
         detail:
-        - リモート装置の制御
-        - HDDのファイルシステム設計
-        - 録画と再生の処理
-        - 組込みWEBサーバー
-        - クライアントとの連携
-      - name: コードベースリファクタリング
+        - Controller of remote devices
+        - File system in HDD
+        - Procedures of video recording and playing
+        - Embedded WEB server
+        - Link to the client application
+      - name: Codebase refactoring
         detail:
-        - 多機種で使えるコードを共通化
-        - モジュール単位で分割
-      - name: クラウドサービス
+        - Standardize the code to let it be used by several product models
+        - Seperate the codebase to several modules
+      - name: Cloud service
         detail:
-        - ビデオリコーダのクラウド化
-        - データストリーミング
-        - 認証と暗号化
-      - name: クライアント開発
+        - Cloud service for video recorder
+        - Data streaming development
+        - Authentication and encryption
+      - name: Client application development
         detail:
-        - デスクトップクライアント
-        - カメラ数拡張と新機能追加 
+        - Desktop client application
+        - Extend the number of cameras and add new functions
   personal:
-    key: 個人開発
+    key: Personal developments
     value:
     - name: dictionary
       url: https://github.com/hrdrq/dictionaryUI
       detail:
-      - 各サイトから単語の情報を収集
-      - データベースで管理
-      - 長年日本語と英語の勉強で使用
+      - Gather the information of words from several sites
+      - Manage the words with database
+      - I'm using it to learn Japanese and English for years
     - name: price_search
       url: https://github.com/hrdrq/price_search
       detail:
-      - 各ネットショップの商品情報を収集
-      - 日本と台湾の相場を比較できる
+      - Gather the proudct information from several online shops
+      - The prices between Japan and Taiwan can be compared
     - name: darvish
       url: https://github.com/hrdrq/darvish
       detail:
-      - 野球選手のダルビッシュ有投手の情報サイト
-      - ブログの中国語翻訳を投稿
+      - Information site for baseball player, Yu Darvish
+      - Chinese translation for blog articles
     - name: homepage
       url: https://github.com/hrdrq/homepage
       detail:
-      - このサイトです
+      - This site
     - name: reading_tool
       url: https://github.com/hrdrq/reading_tool
       detail:
-      - 朗読の練習ツール
-      - フレーズ単位で音声再生
-      - 自分の声を録音し自動再生で比較が可能
+      - Tool for oral reading practice
+      - Audio can be played with phrase units
+      - Can record one's voice and play automatically to compare with accurate pronunciation
     - name: listening_tool
       url: https://github.com/hrdrq/listening_tool
       detail:
-      - 音声と字幕を再生するシンプルなツール
+      - A simple player to play audio with subtitle
     - name: transcript
       url: https://github.com/hrdrq/transcript
       detail:
-      - 英語のテキストを単語表にする
-      - 動詞の時制や名詞の複数形などを正規化
+      - To convert English text to word list
+      - Standardize the verb tense and plural form
     - name: crypto_currencies_price
       url: https://github.com/hrdrq/crypto_currencies_price
       detail:
-      - 複数の仮想通貨のローソク足チャートを同時に表示
-      - slackに投稿する機能
+      - Merge multiple candlestick chart of cryptocurrencies to one
+      - Post the merged chart to Slack channel
     - name: compress
       url: https://github.com/hrdrq/compress
       detail:
-      - 大量の音声と画像を圧縮するツール
+      - Compress audio and image files in bulk
     - name: crawler
       url: https://github.com/hrdrq/crawler
       detail:
-      - サイトの情報を収集する
+      - To gather information from websites
     - name: curses_sample
       url: https://github.com/hrdrq/curses_sample
       detail:
-      - ターミナルのPythonの簡易なGUI
+      - A simple python GUI in terminal
     - name: priceAMZ
       url: https://github.com/hrdrq/priceAMZ
       detail:
-      - Amazonの商品情報を収集
+      - To gather product information of Amazon.com
 contact:
   text: Please contact me by Email or the direct message in the sites below.
 copy: Copy
