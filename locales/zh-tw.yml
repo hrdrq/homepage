@@ -55,26 +55,26 @@ about:
   - 試圖利用技術來讓生活更加便利。
   - 學習與開發的速度常得到讚賞。
   detail:
-    名前: 孫 琮博 (Tsung-Po Sun, そん むねひろ)
-    出身: 台湾台南
-    在住: 日本東京
-    得意分野: Web開発(バックエンド/フロントエンド)、サービス運用管理、AWS開発、データベース管理、クローリング/スクレイピング、データ分析
-    趣味: 旅行、語学、トレーニング、野球
+    姓名: 孫 琮博 (Tsung-Po Sun, そん むねひろ)
+    出生: 台灣台南
+    現居: 日本東京
+    擅長領域: Web開發(後端/前端)、服務營運與管理、AWS開發、資料庫管理、Crawling/Scraping、資料分析
+    興趣: 旅行、語言、健身、棒球
   this_site:
-    title: このサイトについて
-    html: 自分はデザイナーではないので、<a href="https://u-d-l.jp/" target="_blank">UNDERLINE</a>さんのページを参考にして、Vue.jsで作りました。
+    title: 關於這個網站
+    html: 因為本身非設計師不擅長設計、因此參考了<a href="https://u-d-l.jp/" target="_blank">UNDERLINE</a>的網頁、並用Vue.js重新製作。
 skills:
-- group: プログラミング
+- group: 程式設計
   contents:
   - type: C/C++
     detail:
-    - 組込みシステム開発
-    - デスクトップアプリケーション開発
+    - 嵌入式系統開發
+    - 應用程式開發
   - type: Python
     detail:
-    - WEBサービス
-    - Numpy、Pandas、Matplotlib、Jupyterにてデータ分析
-    - クローリングとスクレイピング
+    - WEB服務
+    - 使用Numpy、Pandas、Matplotlib、Jupyter進行資料分析
+    - Crawling與Scraping
   - type: Ruby
     detail:
     - Ruby on Rails
@@ -83,7 +83,7 @@ skills:
     - Vue.js
     - Angular.js
     - jQuery
-  - type: データベース
+  - type: 資料庫
     detail:
     - MySQL
     - MongoDB
@@ -91,7 +91,7 @@ skills:
     detail:
     - CakePHP
     - Wordpress
-- group: ツール/サービス
+- group: 工具/服務
   contents:
   - type: AWS
     detail:
@@ -116,206 +116,204 @@ skills:
   - type: GraphQL
   - type: Firebase
   - type: Heroku
-- group: 語学
+- group: 語言
   contents:
-  - type: 英語
+  - type: 英文
     detail:
     - TOEIC 900
-    - アメリカのエンジニアと共同作業の経験あり
-  - type: 日本語
+    - 與美籍工程師共同合作的經驗
+  - type: 日文
     detail:
     - JLPT N1
-    - 約4年間日本企業で勤めています
-  - type: 中国語
+    - 在日本公司服務了近4年
+  - type: 中文
     detail:
-    - 母国語です
-  - type: 台湾語
+    - 母語
+  - type: 台語
     detail:
-    - 母国語です
+    - 母語
 experience:
   work:
-    key: 職務
+    key: 工作
     value:
     - company: Coincheck
       url: https://corporate.coincheck.com
       period: 2018.9 ~
       contents:
-      - name: 入金システム
+      - name: 入金系統
         detail:
-        - 入金名義例外処理
-        - 銀行明細をスクレイピング
-        - 顧客問い合わせ数を減らした
-      - name: Nuxt化/API化
+        - 入金人名義錯誤的處理
+        - 從銀行網站擷取明細
+        - 適度降低了客服需處理的案件數
+      - name: Nuxt整合API
         detail:
-        - 既存のサイトをAPIにて再構築
-      - name: 年間取引履歴
+        - 將既有的網站改由API進行重建
+      - name: 年度交易紀錄表
         detail:
-        - 顧客さんが損益を計算するための書類
-        - 既存の機能の改善と拡張
+        - 顧客使用該文檔進行當年度的損益計算
+        - 將現有的功能進行擴充並改善
       - name: TMS(Transaction Monitoring System)
         detail:
-        - 疑わしい操作をするユーザーを検知
-        - データベースで情報を抽出
+        - 偵測可疑行為的使用者
+        - 使用資料庫的多個資料表來擷取資訊
       - name: KYC(Know Your Customer)
         detail:
-        - 本人確認書類管理システム
-        - ハイリスク顧客を検知
-      - name: 販売所レバレッジ（保留中）
+        - 身分證明文件管理系統
+        - 高風險顧客判定
+      - name: 店頭買賣槓桿功能（專案暫停中）
         detail:
-        - カバー先と連携
-        - レート取得と管理
-        - 証拠金維持率とロスカット機能
-      - name: 販売所新規通貨
+        - 與上游交易所的系統整合
+        - 匯率價格的取得與管理
+        - 保證金維持率與強制停損功能
+      - name: 新貨幣上市
         detail:
-        - サービス拡張の対応
-      - name: キャンペーン実施
+        - 將網站功能進行擴充以因應新貨幣上市
+      - name: 特惠活動實行
         detail:
-        - 顧客分析と実装
-        - 申込画面と特典付与処理
-      - name: SEO対策
+        - 顧客分析與系統實作
+        - 報名畫面之製作與獎賞賦予功能之開發
+      - name: SEO最佳化
         detail:
-        - マーケティング部と連携
-      - name: 通知プッシュ改善
+        - 與行銷部門共同合作
+      - name: 推播通知改良
         detail:
-        - 通知内容のカスタマイズ
-      - name: プロジェクトマネージャー
+        - 通知對象可指定顧客，顧客也可客製化訂閱內容
+      - name: 專案管理者
         detail:
-        - 部署のプロジェクト管理
-        - 他部署とのコミュニケーション
-        - メンバーのリソース管理
+        - 部門專案之管理
+        - 與其他部門之溝通協調
+        - 部門成員的人力資源掌控
     - company: Marketenterprise
       url: https://www.marketenterprise.co.jp/index.php
       period: 2016.10 ~ 2018.9
       contents:
-      - name: 新規レンタルサービスの開発
+      - name: 新設出租服務之開發與上線
         detail:
-        - APIとデータベースの設計と開発
-        - 商品・顧客・受注・決済などの管理機能
-      - name: 営業部のKPIを可視化
+        - API與資料庫之設計與開發
+        - 商品・顧客・訂單・支付等管理功能
+      - name: 業務部門KPI之圖像化
         detail:
-        - バックエンド・フロントエンドすべての設計と開発
-        - データベースから自動的にグラフとテーブルを作成
-        - 毎日煩雑なデータ入力をなくした
-      - name: 顧客情報の統合
+        - 後端與前端的設計與開發一手包辦
+        - 從資料庫的資訊自動生成圖表
+        - 不再需要每日進行枯燥的資料輸入
+      - name: 顧客資訊整合
         detail:
-        - システムに重複な顧客データが沢山存在した
-        - 顧客情報で似ている顧客を探り出し類似度を算出
-        - 類似度により全自動と半自動処理が可能
-      - name: 商品価格収集
+        - 系統原先存在大量重複的顧客資訊
+        - 從資料中尋找類似的顧客資訊並計算相似度
+        - 利用相似度可進行全自動與半自動的資料合併處理
+      - name: 商品價格蒐集
         detail:
-        - 各ネットショップで商品の価格を取得するツール
-        - バイヤーが中古商品の相場を把握できる
-      - name: コールセンター履歴収集
+        - 可從各網路商店蒐集商品價格之工具
+        - 採購員可快速掌握商品的行情
+      - name: 客服中心電話履歷整合
         detail:
-        - システム操作と電話履歴を紐付けた
-        - 受注と関連する電話が録音を聞けるようにした
-      - name: 受注管理画面を刷新
+        - 系統訂單操作與電話履歷整合
+        - 與訂單相關聯的錄音可以快速地確認
+      - name: 訂單管理系統受注管理画面を刷新
         detail:
-        - 8割の社員が利用する
-        - 項目を正規化し、データマイニングできるようになった
-        - UX改善で作業効率が上がり、社員のストレスが軽減
-      - name: 車両配置システム
+        - 8成以上的員工每日使用該系統
+        - 將訂單的資料項目正規化，使資料可以進行資料探勘分析
+        - 經由UX改善，員工的工作效率提升，情緒面也較為輕鬆
+      - name: 車輛配置系統
         detail:
-        - 一ヶ月程度の案件を最適ルートを算出
-        - 同じリソースで処理できる案件が２割増加
-        - 遠回りによる運転手のストレスが軽減
-      - name: 伝票電子化
+        - 一個月左右的訂單需要的行車路線與時間規劃的最佳化流程
+        - 司機也減少了因繞遠路帶來的煩悶心情
+      - name: 單據電子化
         detail:
-        - 紙の管理が不要
-        - 伝票情報を写し直すことが不要
-      - name: 商品撮影プロセス改善
+        - 減少了紙張的管理成本
+        - 免去了將紙本資料輸入進系統的流程
+      - name: 商品拍攝流程之改善
         detail:
-        - モバイル端末で処理を完結させた
-        - 別途にアップロードすることが不要
+        - 使用一台裝置即可完成全部流程
+        - 不需要再另外使用電腦上傳照片
 
     - company: EverFocus
       url: https://www.everfocus.com/
       period: 2011.10 ~ 2013.10
       contents:
-      - name: ファームウェア開発
+      - name: 韌體開發
         detail:
-        - リモート装置の制御
-        - HDDのファイルシステム設計
-        - 録画と再生の処理
-        - 組込みWEBサーバー
-        - クライアントとの連携
-      - name: コードベースリファクタリング
+        - 遠端裝置的操控
+        - 硬碟的File system開發
+        - 影像攝錄與播放的處理
+        - 嵌入式WEB伺服器
+        - 與客戶端程式的通訊
+      - name: Codebase refactoring
         detail:
-        - 多機種で使えるコードを共通化
-        - モジュール単位で分割
-      - name: クラウドサービス
+        - 將程式碼整理成各機型的裝置可通用的內容
+        - 依照功能分成不同的模組
+      - name: 雲端服務
         detail:
-        - ビデオリコーダのクラウド化
-        - データストリーミング
-        - 認証と暗号化
-      - name: クライアント開発
+        - 影像攝錄裝置雲端化
+        - 資料串流處理
+        - 資料通訊認證與加密
+      - name: 客戶端應用程式開發
         detail:
-        - デスクトップクライアント
-        - カメラ数拡張と新機能追加 
+        - 電腦版客戶端應用程式
+        - 攝影機數目擴增與新功能追加
   personal:
-    key: 個人開発
+    key: 個人開發
     value:
     - name: dictionary
       url: https://github.com/hrdrq/dictionaryUI
       detail:
-      - 各サイトから単語の情報を収集
-      - データベースで管理
-      - 長年日本語と英語の勉強で使用
+      - 從個網站蒐集單字資料
+      - 使用資料庫進行單字的管理
+      - 多年來使用此工具輔助學習英日文
     - name: price_search
       url: https://github.com/hrdrq/price_search
       detail:
-      - 各ネットショップの商品情報を収集
-      - 日本と台湾の相場を比較できる
+      - 從各個網路商店蒐集商品的資訊
+      - 可進行台灣與日本商品價格的比較
     - name: darvish
       url: https://github.com/hrdrq/darvish
       detail:
-      - 野球選手のダルビッシュ有投手の情報サイト
-      - ブログの中国語翻訳を投稿
+      - 棒球選手達比修有的粉絲情報網
+      - 有提供部落格文章的中文翻譯
     - name: homepage
       url: https://github.com/hrdrq/homepage
       detail:
-      - このサイトです
+      - 此網站
     - name: reading_tool
       url: https://github.com/hrdrq/reading_tool
       detail:
-      - 朗読の練習ツール
-      - フレーズ単位で音声再生
-      - 自分の声を録音し自動再生で比較が可能
+      - 可用來練習朗讀的工具
+      - 聲音檔的播放可分割成每個句子
+      - 可錄下自己的發音並自動播放來比對發音是否正確
     - name: listening_tool
       url: https://github.com/hrdrq/listening_tool
       detail:
-      - 音声と字幕を再生するシンプルなツール
+      - 播放聲音檔與字幕檔的簡單工具
     - name: transcript
       url: https://github.com/hrdrq/transcript
       detail:
-      - 英語のテキストを単語表にする
-      - 動詞の時制や名詞の複数形などを正規化
+      - 將英文文章轉換成單字表
+      - 不同的動詞時態或單複數型的名詞會轉換成同個單字
     - name: crypto_currencies_price
       url: https://github.com/hrdrq/crypto_currencies_price
       detail:
-      - 複数の仮想通貨のローソク足チャートを同時に表示
-      - slackに投稿する機能
+      - 將複數的虛擬貨幣走勢圖合成一個圖表
+      - 該圖自動上傳至Slack以做通知
     - name: compress
       url: https://github.com/hrdrq/compress
       detail:
-      - 大量の音声と画像を圧縮するツール
+      - 將大量音檔與圖像壓縮的工具
     - name: crawler
       url: https://github.com/hrdrq/crawler
       detail:
-      - サイトの情報を収集する
+      - 從各種網站取得資訊的工具
     - name: curses_sample
       url: https://github.com/hrdrq/curses_sample
       detail:
-      - ターミナルのPythonの簡易なGUI
+      - 在終端機上Python的簡易GUI
     - name: priceAMZ
       url: https://github.com/hrdrq/priceAMZ
       detail:
-      - Amazonの商品情報を収集
+      - 蒐集Amazon商品資訊的工具
 
 
 
 contact:
-  text: メール、あるいは以下のサイトのダイレクトメッセージにてご連絡いただきますようお願い致します。
-copy: コピー
-copied: コピーしました
-
+  text: 請使用電子郵件或下列網站的私訊與我聯絡，謝謝。
+copy: 複製
+copied: 已複製
