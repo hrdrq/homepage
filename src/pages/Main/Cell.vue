@@ -75,7 +75,7 @@ export default {
       width: 100%;
     }
     /* max-width: 280px; */
-    word-break: break-all;
+    /* word-break: break-all; */
     @include md {
       width: calc(100% - 70px);
     }
