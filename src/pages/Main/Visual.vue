@@ -1,10 +1,10 @@
 <template>
   <div id="visual_div">
     <div id="visual_inner">
+      <img id="visual_img" src="../../assets/img/visual.png" alt="">
       <div id="message">
         <p v-for="(text, i) in $t('main.visual')" :key="i">{{ text }}</p>
       </div>
-      <img id="visual_img" src="../../assets/img/visual.png" alt="">
     </div>
   </div>
 </template>
@@ -27,6 +27,7 @@ export default {
       max-width: 180px;
       @include md {
         max-width: 160px;
+        margin-left: 50px;
       }
       @include mini {
         max-width: 140px;
@@ -34,11 +35,11 @@ export default {
     }
     #message {
       display: inline-block;
-      writing-mode: vertical-rl;
+      writing-mode: vertical-lr;
       text-align: left;
       @include md {
         writing-mode: inherit;
-        margin-right: 40px;
+        margin-left: 40px;
         margin-bottom: 100px;
         font-size: 14px;
         letter-spacing: 4px;
