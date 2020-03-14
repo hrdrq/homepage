@@ -25,7 +25,7 @@
         <div class="info">
           <div class="project" v-for="(val, i) in $t('experience.personal.value')" :key="i">
             <div class="name">
-              <a :href="val.url">{{ val.name }}</a>
+              <a :href="val.url" target="_blank">{{ val.name }}</a>
             </div>
             <div class="contents">
               <div class="content_name" v-for="(d, k) in val.detail" :key="k">{{ d }}</div>
