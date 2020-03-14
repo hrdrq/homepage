@@ -1,77 +1,77 @@
 main:
   visual:
-  - 靠著努力不懈與好奇心，
-  - 試圖以開發來為生活帶來更佳的便利性，
-  - 並創造出新的價值。
+  - 靠着努力不懈与好奇心，
+  - 试图以开发来为生活带来更佳的便利性，
+  - 并创造出新的价值。
   experience:
     crypto:
-      name: 虛擬貨幣交易所
+      name: 虚拟货币交易所
       list:
-      - 網站服務開發
-      - 專案管理
+      - 网站服务开发
+      - 专案管理
     ec:
-      name: 電子商務公司
+      name: 电子商务公司
       list:
-      - 網站服務開發
-      - 營運效率提升
+      - 网站服务开发
+      - 营运效率提升
     surveillance:
-      name: 監控監視器廠
+      name: 监控监视器厂
       list:
-      - 嵌入式系統開發
-      - 應用程式開發
+      - 嵌入式系统开发
+      - 应用程式开发
   languages:
     english:
       name: 英文
       text: |-
-        商務水準
+        商务水准
         Toeic 900
     japanese:
       name: 日文
       text: |-
-        商務水準
+        商务水准
         JLPT N1
     chinese:
       name: 中文
-      text: 母語
+      text: 母语
   education:
-    school_name: 國立台灣大學
-    department_name: 電機工程學系
-    wiki: https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8
+    school_name: 国立台湾大学
+    department_name: 电机工程学系
+    wiki: https://zh.wikipedia.org/zh-cn/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8
     descriptions:
-    - 台灣排名第一之大學
-    - 2019年QS世界大學排行榜第72位
-    - 台灣第2類組科系排名第一
+    - 台湾排名第一之大学
+    - 2019年QS世界大学排行榜第72位
+    - 台湾第2类组科系排名第一
   personal_works:
     dictionary: 字典工具
-    price: 價格通知
-    ui: 終端機GUI
-    darvish: 粉絲網頁
-    reading: 朗讀練習工具
-    price_search: 價格比較工具
+    price: 价格通知
+    ui: 终端机GUI
+    darvish: 粉丝网页
+    reading: 朗读练习工具
+    price_search: 价格比较工具
 about:
   main:
-  - 在日本東京擔任軟體工程師。
-  - 2016年來到日本。
-  - 試圖利用技術來讓生活更加便利。
-  - 學習與開發的速度常得到讚賞。
+  - 在日本东京担任软体工程师。
+  - 2016年来到日本。
+  - 试图利用技术来让生活更加便利。
+  - 学习与开发的速度常得到赞赏。
   detail:
-    姓名: 孫 琮博 (Tsung-Po Sun, そん むねひろ)
-    出生: 台灣台南
-    現居: 日本東京
-    擅長領域: Web開發(後端/前端)、服務營運與管理、AWS開發、資料庫管理、Crawling/Scraping、資料分析
-    興趣: 旅行、語言、健身、棒球
+    姓名: 孙 琮博 (Tsung-Po Sun, そん むねひろ)
+    出生: 台湾台南
+    现居: 日本东京
+    擅长领域: Web开发(后端/前端)、服务营运与管理、AWS开发、资料库管理、Crawling/Scraping、资料分析
+    兴趣: 旅行、语言、健身、棒球
 skills:
-- group: 程式設計
+- group: 程式设计
   contents:
   - type: C/C++
     detail:
-    - 嵌入式系統開發
-    - 應用程式開發
+    - 嵌入式系统开发
+    - 应用程式开发
   - type: Python
     detail:
-    - WEB服務
-    - 使用Numpy、Pandas、Matplotlib、Jupyter進行資料分析
-    - Crawling與Scraping
+    - WEB服务
+    - 使用Numpy、Pandas、Matplotlib、Jupyter进行资料分析
+    - Crawling与Scraping
   - type: Ruby
     detail:
     - Ruby on Rails
@@ -80,7 +80,7 @@ skills:
     - Vue.js
     - Angular.js
     - jQuery
-  - type: 資料庫
+  - type: 资料库
     detail:
     - MySQL
     - MongoDB
@@ -88,7 +88,7 @@ skills:
     detail:
     - CakePHP
     - Wordpress
-- group: 工具/服務
+- group: 工具/服务
   contents:
   - type: AWS
     detail:
@@ -113,22 +113,22 @@ skills:
   - type: GraphQL
   - type: Firebase
   - type: Heroku
-- group: 語言
+- group: 语言
   contents:
   - type: 英文
     detail:
     - TOEIC 900
-    - 與美籍工程師共同合作的經驗
+    - 与美籍工程师共同合作的经验
   - type: 日文
     detail:
     - JLPT N1
-    - 在日本公司服務了近4年
+    - 在日本公司服务了近4年
   - type: 中文
     detail:
-    - 母語
-  - type: 台語
+    - 母语
+  - type: 台语
     detail:
-    - 母語
+    - 母语
 experience:
   work:
     key: 工作
@@ -137,180 +137,181 @@ experience:
       url: https://corporate.coincheck.com
       period: 2018.9 ~
       contents:
-      - name: 入金系統
+      - name: 入金系统
         detail:
-        - 入金人名義錯誤的處理
-        - 從銀行網站擷取明細
-        - 適度降低了客服需處理的案件數
+        - 入金人名义错误的处理
+        - 从银行网站撷取明细
+        - 适度降低了客服需处理的案件数
       - name: Nuxt整合API
         detail:
-        - 將既有的網站改由API進行重建
-      - name: 年度交易紀錄表
+        - 将既有的网站改由API进行重建
+      - name: 年度交易纪录表
         detail:
-        - 顧客使用該文檔進行當年度的損益計算
-        - 將現有的功能進行擴充並改善
+        - 顾客使用该文档进行当年度的损益计算
+        - 将现有的功能进行扩充并改善
       - name: TMS(Transaction Monitoring System)
         detail:
-        - 偵測可疑行為的使用者
-        - 使用資料庫的多個資料表來擷取資訊
+        - 侦测可疑行为的使用者
+        - 使用资料库的多个资料表来撷取资讯
       - name: KYC(Know Your Customer)
         detail:
-        - 身分證明文件管理系統
-        - 高風險顧客判定
-      - name: 店頭買賣槓桿功能（專案暫停中）
+        - 身分证明文件管理系统
+        - 高风险顾客判定
+      - name: 店头买卖槓杆功能（专案暂停中）
         detail:
-        - 與上游交易所的系統整合
-        - 匯率價格的取得與管理
-        - 保證金維持率與強制停損功能
-      - name: 新貨幣上市
+        - 与上游交易所的系统整合
+        - 汇率价格的取得与管理
+        - 保证金维持率与强制停损功能
+      - name: 新货币上市
         detail:
-        - 將網站功能進行擴充以因應新貨幣上市
-      - name: 特惠活動實行
+        - 将网站功能进行扩充以因应新货币上市
+      - name: 特惠活动实行
         detail:
-        - 顧客分析與系統實作
-        - 報名畫面之製作與獎賞賦予功能之開發
+        - 顾客分析与系统实作
+        - 报名画面之製作与奖赏赋予功能之开发
       - name: SEO最佳化
         detail:
-        - 與行銷部門共同合作
+        - 与行销部门共同合作
       - name: 推播通知改良
         detail:
-        - 通知對象可指定顧客，顧客也可客製化訂閱內容
-      - name: 專案管理者
+        - 通知对象可指定顾客，顾客也可客製化订阅内容
+      - name: 专案管理者
         detail:
-        - 部門專案之管理
-        - 與其他部門之溝通協調
-        - 部門成員的人力資源掌控
+        - 部门专案之管理
+        - 与其他部门之沟通协调
+        - 部门成员的人力资源掌控
     - company: Marketenterprise
       url: https://www.marketenterprise.co.jp/index.php
       period: 2016.10 ~ 2018.9
       contents:
-      - name: 新設出租服務之開發與上線
+      - name: 新设出租服务之开发与上线
         detail:
-        - API與資料庫之設計與開發
-        - 商品・顧客・訂單・支付等管理功能
-      - name: 業務部門KPI之圖像化
+        - API与资料库之设计与开发
+        - 商品・顾客・订单・支付等管理功能
+      - name: 业务部门KPI之图像化
         detail:
-        - 後端與前端的設計與開發一手包辦
-        - 從資料庫的資訊自動生成圖表
-        - 不再需要每日進行枯燥的資料輸入
-      - name: 顧客資訊整合
+        - 后端与前端的设计与开发一手包办
+        - 从资料库的资讯自动生成图表
+        - 不再需要每日进行枯燥的资料输入
+      - name: 顾客资讯整合
         detail:
-        - 系統原先存在大量重複的顧客資訊
-        - 從資料中尋找類似的顧客資訊並計算相似度
-        - 利用相似度可進行全自動與半自動的資料合併處理
-      - name: 商品價格蒐集
+        - 系统原先存在大量重複的顾客资讯
+        - 从资料中寻找类似的顾客资讯并计算相似度
+        - 利用相似度可进行全自动与半自动的资料合併处理
+      - name: 商品价格蒐集
         detail:
-        - 可從各網路商店蒐集商品價格之工具
-        - 採購員可快速掌握商品的行情
-      - name: 客服中心電話履歷整合
+        - 可从各网路商店蒐集商品价格之工具
+        - 採购员可快速掌握商品的行情
+      - name: 客服中心电话履历整合
         detail:
-        - 系統訂單操作與電話履歷整合
-        - 與訂單相關聯的錄音可以快速地確認
-      - name: 訂單管理系統受注管理画面を刷新
+        - 系统订单操作与电话履历整合
+        - 与订单相关联的录音可以快速地确认
+      - name: 订单管理系统受注管理画面を刷新
         detail:
-        - 8成以上的員工每日使用該系統
-        - 將訂單的資料項目正規化，使資料可以進行資料探勘分析
-        - 經由UX改善，員工的工作效率提升，情緒面也較為輕鬆
-      - name: 車輛配置系統
+        - 8成以上的员工每日使用该系统
+        - 将订单的资料项目正规化，使资料可以进行资料探勘分析
+        - 经由UX改善，员工的工作效率提升，情绪面也较为轻鬆
+      - name: 车辆配置系统
         detail:
-        - 一個月左右的訂單需要的行車路線與時間規劃的最佳化流程
-        - 司機也減少了因繞遠路帶來的煩悶心情
-      - name: 單據電子化
+        - 一个月左右的订单需要的行车路线与时间规划的最佳化流程
+        - 司机也减少了因绕远路带来的烦闷心情
+      - name: 单据电子化
         detail:
-        - 減少了紙張的管理成本
-        - 免去了將紙本資料輸入進系統的流程
-      - name: 商品拍攝流程之改善
+        - 减少了纸张的管理成本
+        - 免去了将纸本资料输入进系统的流程
+      - name: 商品拍摄流程之改善
         detail:
-        - 使用一台裝置即可完成全部流程
-        - 不需要再另外使用電腦上傳照片
+        - 使用一台装置即可完成全部流程
+        - 不需要再另外使用电脑上传照片
 
     - company: EverFocus
       url: https://www.everfocus.com/
       period: 2011.10 ~ 2013.10
       contents:
-      - name: 韌體開發
+      - name: 韧体开发
         detail:
-        - 遠端裝置的操控
-        - 硬碟的File system開發
-        - 影像攝錄與播放的處理
+        - 远端装置的操控
+        - 硬碟的File system开发
+        - 影像摄录与播放的处理
         - 嵌入式WEB伺服器
-        - 與客戶端程式的通訊
+        - 与客户端程式的通讯
       - name: Codebase refactoring
         detail:
-        - 將程式碼整理成各機型的裝置可通用的內容
-        - 依照功能分成不同的模組
-      - name: 雲端服務
+        - 将程式码整理成各机型的装置可通用的内容
+        - 依照功能分成不同的模组
+      - name: 云端服务
         detail:
-        - 影像攝錄裝置雲端化
-        - 資料串流處理
-        - 資料通訊認證與加密
-      - name: 客戶端應用程式開發
+        - 影像摄录装置云端化
+        - 资料串流处理
+        - 资料通讯认证与加密
+      - name: 客户端应用程式开发
         detail:
-        - 電腦版客戶端應用程式
-        - 攝影機數目擴增與新功能追加
+        - 电脑版客户端应用程式
+        - 摄影机数目扩增与新功能追加
   personal:
-    key: 個人開發
+    key: 个人开发
     value:
     - name: dictionary
       url: https://github.com/hrdrq/dictionaryUI
       detail:
-      - 從個網站蒐集單字資料
-      - 使用資料庫進行單字的管理
-      - 多年來使用此工具輔助學習英日文
+      - 从个网站蒐集单字资料
+      - 使用资料库进行单字的管理
+      - 多年来使用此工具辅助学习英日文
     - name: price_search
       url: https://github.com/hrdrq/price_search
       detail:
-      - 從各個網路商店蒐集商品的資訊
-      - 可進行台灣與日本商品價格的比較
+      - 从各个网路商店蒐集商品的资讯
+      - 可进行台湾与日本商品价格的比较
     - name: darvish
       url: https://github.com/hrdrq/darvish
       detail:
-      - 棒球選手達比修有的粉絲情報網
-      - 有提供部落格文章的中文翻譯
+      - 棒球选手达比修有的粉丝情报网
+      - 有提供部落格文章的中文翻译
     - name: homepage
       url: https://github.com/hrdrq/homepage
       detail:
-      - 此網站
+      - 此网站
     - name: reading_tool
       url: https://github.com/hrdrq/reading_tool
       detail:
-      - 可用來練習朗讀的工具
-      - 聲音檔的播放可分割成每個句子
-      - 可錄下自己的發音並自動播放來比對發音是否正確
+      - 可用来练习朗读的工具
+      - 声音档的播放可分割成每个句子
+      - 可录下自己的发音并自动播放来比对发音是否正确
     - name: listening_tool
       url: https://github.com/hrdrq/listening_tool
       detail:
-      - 播放聲音檔與字幕檔的簡單工具
+      - 播放声音档与字幕档的简单工具
     - name: transcript
       url: https://github.com/hrdrq/transcript
       detail:
-      - 將英文文章轉換成單字表
-      - 不同的動詞時態或單複數型的名詞會轉換成同個單字
+      - 将英文文章转换成单字表
+      - 不同的动词时态或单複数型的名词会转换成同个单字
     - name: crypto_currencies_price
       url: https://github.com/hrdrq/crypto_currencies_price
       detail:
-      - 將複數的虛擬貨幣走勢圖合成一個圖表
-      - 該圖自動上傳至Slack以做通知
+      - 将複数的虚拟货币走势图合成一个图表
+      - 该图自动上传至Slack以做通知
     - name: compress
       url: https://github.com/hrdrq/compress
       detail:
-      - 將大量音檔與圖像壓縮的工具
+      - 将大量音档与图像压缩的工具
     - name: crawler
       url: https://github.com/hrdrq/crawler
       detail:
-      - 從各種網站取得資訊的工具
+      - 从各种网站取得资讯的工具
     - name: curses_sample
       url: https://github.com/hrdrq/curses_sample
       detail:
-      - 在終端機上Python的簡易GUI
+      - 在终端机上Python的简易GUI
     - name: priceAMZ
       url: https://github.com/hrdrq/priceAMZ
       detail:
-      - 蒐集Amazon商品資訊的工具
+      - 蒐集Amazon商品资讯的工具
 
 
 
 contact:
-  text: 請使用電子郵件或下列網站的私訊與我聯絡，謝謝。
+  text: 请使用电子邮件或下列网站的私讯与我联络，谢谢。
 copy: 複製
 copied: 已複製
+

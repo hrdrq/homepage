@@ -35,9 +35,9 @@ sites:
     name: Email
     id: congbosun@gmail.com
   linkedin:
-    url: http://www.linkedin.com/
+    url: https://www.linkedin.com/in/smunehiro/
     name: LinkedIn
-    id: ''
+    id: smunehiro
   github:
     url: https://github.com/hrdrq
     name: GitHub

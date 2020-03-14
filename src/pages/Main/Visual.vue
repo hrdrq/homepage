@@ -21,6 +21,7 @@ export default {
   text-align: center;
   background: #edecec;
   #visual_inner {
+    transition:all 1s linear;
     #visual_img {
       display: inline-block;
       height: auto;
@@ -37,6 +38,8 @@ export default {
       display: inline-block;
       writing-mode: vertical-lr;
       text-align: left;
+      vertical-align: top;
+      margin-top: 70px;
       @include md {
         writing-mode: inherit;
         margin-left: 40px;
@@ -44,10 +47,12 @@ export default {
         font-size: 14px;
         letter-spacing: 4px;
         line-height: 28px;
+        vertical-align: bottom;
       }
       @include mini {
         font-size: 12.5px;
         line-height: 12px;
+        margin-top: 40px;
       }
     }
   }
