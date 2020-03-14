@@ -13,6 +13,7 @@ let get_locale = () => {
   })
   if(!locale) {
     let lang = navigator.language || navigator.userLanguage
+    lang = lang.toLowerCase()
     if(lang.startsWith('ja')) {
       locale = 'ja'
     }
