@@ -60,9 +60,6 @@ about:
     在住: 日本東京
     得意分野: Web開発(バックエンド/フロントエンド)、サービス運用管理、AWS開発、データベース管理、クローリング/スクレイピング、データ分析
     趣味: 旅行、語学、トレーニング、野球
-  this_site:
-    title: このサイトについて
-    html: 自分はデザイナーではないので、<a href="https://u-d-l.jp/" target="_blank">UNDERLINE</a>さんのページを参考にして、Vue.jsで作りました。
 skills:
 - group: プログラミング
   contents:

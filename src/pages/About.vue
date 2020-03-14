@@ -2,12 +2,14 @@
   <div id="about">
     <PageTemplate title="About">
       <div id="up">
-        <p v-for="(text, i) in $t('about.main')" :key="i">{{ text }}</p>
-      </div>
-      <div id=down>
         <div id="picture">
           <img src="../assets/img/about.jpg">
         </div>
+        <div id="description">
+          <p v-for="(text, i) in $t('about.main')" :key="i">{{ text }}</p>
+        </div>
+      </div>
+      <div id=down>
         <div id="detail">
           <table>
             <tr v-for="([key, value], i) in Object.entries($t('about.detail'))" :key="i">
@@ -28,10 +30,10 @@
           </table>
         </div>
       </div>
-      <div id="this_site">
-        <div id="this_site_title">{{ $t('about.this_site.title' )}}</div>
-        <div id="this_site_content" v-html="$t('about.this_site.html')"></div>
-      </div>
+      <!-- <div id="this_site"> -->
+      <!--   <div id="this_site_title">{{ $t('about.this_site.title' )}}</div> -->
+      <!--   <div id="this_site_content" v&#45;html="$t('about.this_site.html')"></div> -->
+      <!-- </div> -->
     </PageTemplate>
   </div>
 </template>
@@ -54,23 +56,31 @@ export default {
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 50px;
+    text-align: center;
+    @include md {
+      text-align: left;
+    }
+    #description {
+      display: inline-block;
+      text-align: left;
+    }
+    #picture {
+      /* text-align: center; */
+      img {
+        width: 160px;
+      }
+    }
   }
   #down {
     @include md {
       display:flex;
       flex-diretion: row;
     }
-    #picture {
-      text-align: center;
-      img {
-        width: 160px;
-      }
-    }
     #detail {
       margin-top: 40px;
       @include md {
         margin-top: 0;
-        margin-left: 50px;
+        /* margin-left: 50px; */
       }
       width: 100%;
       table {

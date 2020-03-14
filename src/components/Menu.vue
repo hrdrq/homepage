@@ -18,7 +18,8 @@ export default {
 <style scoped lang="scss">
 nav {
   margin-bottom: 20px;
-  border-top: 1px solid #d9d9d9;
+  /* border-top: 1px solid #d9d9d9; */
+  color: $color-sub;
   @include md {
     border-top: none;
     margin-bottom: 0;
@@ -34,34 +35,55 @@ nav {
       display: block;
     }
     li {
-      display: flex; 
+      /* display: flex;  */
       flex-basis: calc(50% - 1px);  
       justify-content: center;
-      flex-direction: column;
+      /* flex-direction: column; */
       /* float: left; */
       width: 50%;
       height: 50px;
-      border-bottom: 1px solid #d9d9d9;
+      /* border-bottom: 1px solid #d9d9d9; */
       text-align: center;
-      &:nth-child(odd) {
-        border-right: 1px solid #d9d9d9;
-      }
+      // &:nth-child(odd) {
+      //   border-right: 1px solid #d9d9d9;
+      // }
       @include md {
-        margin-left: 50px;
+        margin: 0 34px;
         display: inline;
         float: none;
-        border: none !important;
+        /* border: none !important; */
         text-align: right;
       };
       a {
         font-size: 14px;
         letter-spacing: 0.1em;
-        padding: 12px 0;
-        &:hover {
-          text-decoration: underline;
+        margin: 8px 0;
+        padding: 4px 0;
+        transition: .3s;
+        position: relative;
+        overflow: hidden;
+        display:inline-block;
+        &:not(.router-link-active)::after {
+          position: absolute;
+          bottom: 4px;
+          left: 0;
+          content: '';
+          width: 100%;
+          height: 1px;
+          background-color: $color-sub;
+          opacity: 0;
+          transition: .3s;
         }
+        &:hover::after {
+          bottom: 0;
+          opacity: 1;
+        }
+        // &:hover {
+        //   text-decoration: underline;
+        // }
         &.router-link-active {
           opacity: 0.3;
+          cursor: auto;
         }
       }
     }

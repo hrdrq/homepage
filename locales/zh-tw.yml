@@ -60,9 +60,6 @@ about:
     現居: 日本東京
     擅長領域: Web開發(後端/前端)、服務營運與管理、AWS開發、資料庫管理、Crawling/Scraping、資料分析
     興趣: 旅行、語言、健身、棒球
-  this_site:
-    title: 關於這個網站
-    html: 因為本身非設計師不擅長設計、因此參考了<a href="https://u-d-l.jp/" target="_blank">UNDERLINE</a>的網頁、並用Vue.js重新製作。
 skills:
 - group: 程式設計
   contents:

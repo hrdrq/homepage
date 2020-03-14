@@ -26,15 +26,18 @@ export default {
   }
   .title {
     text-align: center;
-    margin: 0 0 70px 0;
+    margin: 50px 0 40px 0;
     font-size: 40px;
     line-height: 1.0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-weight: 100; */
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
     letter-spacing: 0.05em;
     @include md {
       text-align: left;
-      font-size: 46px;
+      /* font-size: 46px; */
+      font-size: 36px;
     }
   }
 }

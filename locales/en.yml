@@ -59,10 +59,6 @@ about:
     Living: Tokyo, Japan
     Strong area: Web development(Backend/Frontend)、Services operation/management、AWS development、Database management、Crawling/Scraping、Data analysis.
     Hobby: Travel, Languages, Workout, Baseball
-  this_site:
-    title: About this site
-    html: Because I am not a designer, I made this site referencing the site of <a
-      href="https://u-d-l.jp/" target="_blank">UNDERLINE</a> with Vue.js.
 skills:
 - group: Programming
   contents:
