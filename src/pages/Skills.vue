@@ -35,6 +35,7 @@ export default {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 6px;
+      color: $color-sub;
     }
     .contents {
       margin-left: 20px;
