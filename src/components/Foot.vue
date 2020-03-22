@@ -4,7 +4,7 @@
       <!-- <IconTotop id="totop" /> -->
       <div id="page_top"><a /></div>
     </div>
-    <!-- <Menu id="footer_menu" /> -->
+    <Menu id="footer_menu" />
     <!-- <div id="copyright"> -->
     <!--   © MUNEHIRO All rights reserved. -->
     <!-- </div> -->
@@ -12,12 +12,12 @@
 </template>
 
 <script>
-// import Menu from '../components/Menu.vue'
+import Menu from '../components/Menu.vue'
 // import IconTotop from '../svgs/totop.vue'
 export default {
   name: 'Foot',
   components: {
-    // Menu,
+    Menu,
     // IconTotop
   },
   methods: {
@@ -113,21 +113,21 @@ footer {
     text-align: center;
     color: $color-front;
   }
-  #footer_menu {
-    ul {
-      @include md {
-        float: left;
-      }
-      padding-left: 0;
-      li {
-        @include md {
-          /* margin: 0 50px; */
-          margin-left: 0;
-          margin-right: 40px;
-        }
-      }
-    }
-  }
+  // #footer_menu {
+  //   ul {
+  //     @include md {
+  //       float: left;
+  //     }
+  //     padding-left: 0;
+  //     li {
+  //       @include md {
+  //         /* margin: 0 50px; */
+  //         margin-left: 0;
+  //         margin-right: 40px;
+  //       }
+  //     }
+  //   }
+  // }
   #copyright {
     font-size: 10px;
     margin: 24px 0;

@@ -84,6 +84,7 @@ skills:
     detail:
     - MySQL
     - MongoDB
+    - DynamoDB
   - type: PHP
     detail:
     - CakePHP
@@ -95,8 +96,7 @@ skills:
     - EC2
     - S3
     - Lambda
-    - DynamoDB
-    - API
+    - DynamoDB API
     - Gateway
     - CloudWatch
     - RDS
@@ -106,6 +106,7 @@ skills:
     - Kinesis
     - Route 53
   - type: Vim
+  - type: Docker
   - type: CircleCI
   - type: Makefile
   - type: Bash
